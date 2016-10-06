@@ -113,4 +113,9 @@ class ArchiveGenerator:
 
 config = ConfigParser.RawConfigParser()
 config.read("db.conf")
-ArchiveGenerator(1444, config.get("db", "password")).generate()
+
+with open("arcod.csv", "rb") as csvfile:
+	res = csv.reader(csvfile, delimiter=",")
+	res.next()
+	for row in res:
+		ArchiveGenerator(row[0], config.get("db", "password")).generate()
