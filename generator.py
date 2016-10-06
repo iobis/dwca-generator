@@ -47,6 +47,7 @@ class ArchiveGenerator:
 			r = csv.reader(csvfile, delimiter=";")
 			self.mapping = OrderedDict((rows[0], rows[1]) for rows in r)
 			self.fields = OrderedDict((k, v) for k, v in self.mapping.items() if len(v) > 0)
+			self.bor_index = self.fields.keys().index("basisOfRecord")
 
 	def fetch_data(self):
 		fields = ", ".join(("\"" + f + "\"" for f in self.fields.keys()))
@@ -72,8 +73,30 @@ class ArchiveGenerator:
 		out.write("</archive>")
 		return out.getvalue()
 
+	def process_value(self, value):
+		if value is None:
+			return ""
+		elif isinstance(value, basestring):
+			return value.replace("\t", " ")
+		else:
+			return str(value)
+
 	def write_data(self):
 		out = StringIO()
+		out.write("id\t" + "\t".join(self.fields.keys()) + "\n")
+		for r in range(len(self.data)):
+			row = list(self.data[r])
+
+			basis_of_record = row[self.bor_index]
+			if basis_of_record == "L":
+				row[self.bor_index] = "LivingSpecimen"
+			elif basis_of_record == "S":
+				row[self.bor_index] = "PreservedSpecimen"
+			else:
+				row[self.bor_index] = "HumanObservation"
+
+			line = str(r + 1) + "\t" + "\t".join((self.process_value(value) for value in row))
+			out.write(line + "\n")
 		return out.getvalue()
 
 	def generate(self):

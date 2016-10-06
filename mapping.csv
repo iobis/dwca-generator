@@ -36,7 +36,7 @@ fieldNumber;http://rs.tdwg.org/dwc/terms/fieldNumber
 recordedBy;http://rs.tdwg.org/dwc/terms/recordedBy
 modified;
 associatedReferences;http://rs.tdwg.org/dwc/terms/associatedReferences
-bibliographicCitation;http://rs.tdwg.org/dwc/terms/bibliographicCitation
+bibliographicCitation;http://purl.org/dc/terms/bibliographicCitation
 references;
 basisOfRecord;http://rs.tdwg.org/dwc/terms/basisOfRecord
 preparations;http://rs.tdwg.org/dwc/terms/preparations
@@ -45,7 +45,7 @@ year;http://rs.tdwg.org/dwc/terms/year
 month;http://rs.tdwg.org/dwc/terms/month
 day;http://rs.tdwg.org/dwc/terms/day
 dynamicProperties;http://rs.tdwg.org/dwc/terms/dynamicProperties
-RelationshipType;http://rs.tdwg.org/dwc/terms/
+RelationshipType;
 RelatedCatalogItem;
 individualcount;http://rs.tdwg.org/dwc/terms/individualCount
 eventdate;http://rs.tdwg.org/dwc/terms/eventDate
