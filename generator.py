@@ -4,12 +4,14 @@ import zipfile
 from collections import OrderedDict
 from StringIO import StringIO
 import ConfigParser
+import os
 
 class ArchiveGenerator:
 
-	def __init__(self, dataset_id, db_password, eml_path="./eml", mapping_path="./mapping.csv", db_host="obisdb-stage.vliz.be", db_user="obisreader", db_name="obis"):
+	def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./mapping.csv", db_host="obisdb-stage.vliz.be", db_user="obisreader", db_name="obis"):
 		self.dataset_id = dataset_id
 		self.eml_path = eml_path
+		self.output_path = output_path
 		self.mapping_path = mapping_path
 		self.db_host = db_host
 		self.db_user = db_user
@@ -70,12 +72,20 @@ class ArchiveGenerator:
 		out.write("</archive>")
 		return out.getvalue()
 
+	def write_data(self):
+		out = StringIO()
+		return out.getvalue()
+
 	def generate(self):
+		if not os.path.exists(self.output_path):
+			print "Creating output directory %s" % (os.path.abspath(self.output_path))
+			os.makedirs(self.output_path)
 		mf = StringIO()
 		with zipfile.ZipFile(mf, mode="w", compression=zipfile.ZIP_DEFLATED) as zf:
 			zf.writestr("%s/meta.xml" % (self.dataset_name.lower()), self.write_meta())
 			zf.writestr("%s/eml.xml" % (self.dataset_name.lower()), self.eml)
-		with open("%s.zip" % (self.dataset_name.lower()), "wb") as f:
+			zf.writestr("%s/occurrence.txt" % (self.dataset_name.lower()), self.write_data())
+		with open("%s/%s.zip" % (self.output_path, self.dataset_name.lower()), "wb") as f:
 			f.write(mf.getvalue())
 
 config = ConfigParser.RawConfigParser()
