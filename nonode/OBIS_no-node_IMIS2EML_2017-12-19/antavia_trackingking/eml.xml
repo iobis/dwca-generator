@@ -1,0 +1,169 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=antavia_trackingking/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=antavia_trackingking</alternateIdentifier>
+      <title xml:lang="eng">ANTAVIA-TrackingKing</title>
+	  <creator>
+<individualName>
+      <givenName>Céline</givenName>
+      <surName>Le Bohec</surName>
+    </individualName>
+<organizationName>Marine Biological Station (Universitetets Marinbiologiske stasjon i Drøbak); Centre for Ecological and Evolutionary Synthesis (CEES)</organizationName>
+<address>
+      <country>NO</country>
+    </address>
+<electronicMailAddress>c.l.bohec@bio.uio.no</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Yvon</givenName>
+      <surName>Le Maho</surName>
+    </individualName>
+<organizationName>Institut Pluridisciplinaire Hubert Curien; Département Ecologie, Physiologie et Ethologie (DEPE)</organizationName>
+<role>contentProvider</role></associatedParty><associatedParty>
+<individualName>
+      <givenName>Maryline</givenName>
+      <surName>Le Vaillant</surName>
+    </individualName>
+<organizationName>Institut Pluridisciplinaire Hubert Curien; Département Ecologie, Physiologie et Ethologie (DEPE)</organizationName>
+<role>contentProvider</role></associatedParty><associatedParty>
+<individualName>
+      <givenName>Yan</givenName>
+      <surName>Ropert-Coudert</surName>
+    </individualName>
+<organizationName>Institut Pluridisciplinaire Hubert Curien; Département Ecologie, Physiologie et Ethologie (DEPE)</organizationName>
+<role>custodianSteward</role></associatedParty><associatedParty>
+<individualName>
+      <givenName>Claire</givenName>
+      <surName>Saraux</surName>
+    </individualName>
+<organizationName>Institut Pluridisciplinaire Hubert Curien; Département Ecologie, Physiologie et Ethologie (DEPE)</organizationName>
+<role>contentProvider</role></associatedParty>
+	  <pubDate>2017-12-19</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[GPS tracking of known-age and sex king penguins from Crozet Archipelago (age data are available upon request from the senior author)]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Foraging</keyword>
+<keyword>GPS</keyword>
+<keyword>Localization</keyword>
+<keyword>Predators</keyword>
+<keyword>Tracking</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1904">
+          <geographicDescription>ISW, Indian Ocean - http://marineregions.org/mrgid/1904</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>60</westBoundingCoordinate>
+            <eastBoundingCoordinate>4</eastBoundingCoordinate>
+            <northBoundingCoordinate>46</northBoundingCoordinate>
+            <southBoundingCoordinate>45</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2007-11-01</calendarDate></beginDate>
+            <endDate><calendarDate>2010-04-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:212656">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:212656</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Aptenodytes patagonicus</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2017-12-19T16:05:53+01:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Ropert-Coudert Y, Le Vaillant M, Le Bohec C, Le Maho Y (year accessed) GPS tracking of known-age king penguins from Crozet Archipelago. IPHC-DEPE-CNRS Internal Database, v. 1.0., May 2010</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2306</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=2441</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>
