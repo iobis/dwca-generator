@@ -1,0 +1,105 @@
+ALTER VIEW [dbo].[ipt_aegean_macro_fau]
+     AS
+	 SELECT TOP 100 PERCENT
+	 --Darwin Core 1.2 Element
+	 CONVERT(VARCHAR(255),DateLastModified,120) AS [http://purl.org/dc/terms/modified], --index:0
+	 InstitutionCode AS [http://rs.tdwg.org/dwc/terms/institutionCode],
+	 CollectionCode AS [http://rs.tdwg.org/dwc/terms/collectionCode],
+	 CatalogNumber AS [http://rs.tdwg.org/dwc/terms/catalogNumber],
+	 ScientificName AS [http://rs.tdwg.org/dwc/terms/scientificName],
+	 CASE WHEN BasisOfRecord='L' THEN 'LivingSpecimen'
+	      WHEN (BasisOfRecord='S' OR BasisOfRecord='preserved specimen' OR BasisOfRecord='PreservedSpecimen') THEN 'PreservedSpecimen'
+	      WHEN BasisOfRecord='HumanObservation' THEN 'HumanObservation'
+	      WHEN BasisOfRecord='MachineObservation' THEN 'MachineObservation'
+	      ELSE 'Occurrence ' END AS [http://rs.tdwg.org/dwc/terms/basisOfRecord],
+	 kingdom AS [http://rs.tdwg.org/dwc/terms/kingdom],
+	 phylum AS [http://rs.tdwg.org/dwc/terms/phylum],
+	 class AS [http://rs.tdwg.org/dwc/terms/class],
+	 [order] AS [http://rs.tdwg.org/dwc/terms/order],
+	 family AS [http://rs.tdwg.org/dwc/terms/family],
+	 genus AS [http://rs.tdwg.org/dwc/terms/genus],
+	 Species AS [http://rs.tdwg.org/dwc/terms/specificEpithet],
+	 Subspecies AS [http://rs.tdwg.org/dwc/terms/infraspecificEpithet],
+	 ScientificNameAuthor AS [http://rs.tdwg.org/dwc/terms/scientificNameAuthorship],
+	 IdentifiedBy AS [http://rs.tdwg.org/dwc/terms/identifiedBy],
+	 dbo.ipt_date_iso8601(YearIdentified,MonthIdentified,DayIdentified,DEFAULT,DEFAULT) AS [http://rs.tdwg.org/dwc/terms/dateIdentified],
+	 TypeStatus AS [http://rs.tdwg.org/dwc/terms/typeStatus],
+	 CollectorNumber AS [http://rs.tdwg.org/dwc/terms/recordNumber],
+	 FieldNumber AS [http://rs.tdwg.org/dwc/terms/fieldNumber],
+	 Collector AS [http://rs.tdwg.org/dwc/terms/recordedBy],
+	 YearCollected AS [http://rs.tdwg.org/dwc/terms/year],
+	 MonthCollected AS [http://rs.tdwg.org/dwc/terms/month],
+	 DayCollected AS [http://rs.tdwg.org/dwc/terms/day],
+	 --JulianDay: see OBIS extension
+	 --TimeOfDay: see OBIS extension
+	 ContinentOcean AS [http://rs.tdwg.org/dwc/terms/continent],
+	 country AS [http://rs.tdwg.org/dwc/terms/country],
+	 stateProvince AS [http://rs.tdwg.org/dwc/terms/stateProvince],
+	 county AS [http://rs.tdwg.org/dwc/terms/county],
+	 locality AS [http://rs.tdwg.org/dwc/terms/locality],
+	 Longitude AS [http://rs.tdwg.org/dwc/terms/decimalLongitude],
+	 Latitude AS [http://rs.tdwg.org/dwc/terms/decimalLatitude],
+	 CASE WHEN coordinatePrecision IS NOT NULL THEN CONVERT(FLOAT,REPLACE(coordinatePrecision,',','.')) ELSE Start_EndCoordinatePrecision END AS [http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters],
+	 --BoundingBox: see OBIS extension
+	 MinimumElevation AS [http://rs.tdwg.org/dwc/terms/minimumElevationInMeters],
+	 MaximumElevation AS [http://rs.tdwg.org/dwc/terms/maximumElevationInMeters],
+	 CASE WHEN MinimumDepth=0 THEN '0' ELSE CONVERT(VARCHAR(50),MinimumDepth,128) END AS [http://rs.tdwg.org/dwc/terms/minimumDepthInMeters],
+	 CASE WHEN MaximumDepth=0 THEN '0' ELSE CONVERT(VARCHAR(50),MaximumDepth,128) END AS [http://rs.tdwg.org/dwc/terms/maximumDepthInMeters],
+	 sex AS [http://rs.tdwg.org/dwc/terms/sex],
+	 PreparationType AS [http://rs.tdwg.org/dwc/terms/preparations],
+	 CASE WHEN COALESCE(ObservedIndividualCount,IndividualCount)>99999 THEN COALESCE(ObservedIndividualCount,IndividualCount) /* fix EXP notation */
+	      WHEN COALESCE(ObservedIndividualCount,IndividualCount)=0 THEN '0' /* fix for 0.0E0 output */
+	      ELSE CONVERT(VARCHAR(50),COALESCE(ObservedIndividualCount,IndividualCount),129) END /* fix for IPT adding '.0' to all integer values */
+	      AS [http://rs.tdwg.org/dwc/terms/individualCount],
+	 PreviousCatalogNumber AS [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers],
+	 --RelationshipType AS [http://rs.tdwg.org/dwc/terms/relationshipOfResource], not in schema
+	 RelatedCatalogItem AS [http://rs.tdwg.org/dwc/terms/associatedOccurrences],
+	 Notes AS [http://rs.tdwg.org/dwc/terms/occurrenceRemarks],
+
+	 --OBIS extension
+	 RecordURL AS [http://purl.org/dc/terms/references],
+	 COALESCE(Citation,Source) AS [http://purl.org/dc/terms/bibliographicCitation],
+	 Subgenus AS [http://rs.tdwg.org/dwc/terms/subgenus],
+	 COALESCE(dbo.ipt_date_iso8601(StartYearCollected,StartMonthCollected,StartDayCollected,COALESCE(StartTimeOfDay,TimeOfDay),TimeZone),dbo.ipt_date_iso8601(YearCollected,MonthCollected,DayCollected,COALESCE(StartTimeOfDay,TimeOfDay),TimeZone))
+	 + (CASE WHEN (EndYearCollected IS NOT NULL) THEN '/'+dbo.ipt_date_iso8601(EndYearCollected,EndMonthCollected,EndDayCollected,COALESCE(EndTimeOfDay,TimeOfDay),TimeZone) ELSE '' END)
+	 + (CASE WHEN (EndYearCollected IS NULL AND EndTimeOfDay IS NOT NULL) THEN '/'+ COALESCE(dbo.ipt_date_iso8601(StartYearCollected,StartMonthCollected,StartDayCollected,EndTimeOfDay,TimeZone),dbo.ipt_date_iso8601(YearCollected,MonthCollected,DayCollected,EndTimeOfDay,TimeZone)) ELSE '' END) AS [http://rs.tdwg.org/dwc/terms/eventDate],
+	 COALESCE(StartJulianDay,JulianDay) AS [http://rs.tdwg.org/dwc/terms/startDayOfYear],
+	 EndJulianDay AS [http://rs.tdwg.org/dwc/terms/endDayOfYear],
+	 CASE WHEN (TimeOfDay IS NOT NULL OR StartTimeOfDay IS NOT NULL) THEN SUBSTRING(dbo.ipt_date_iso8601(2000,1,1,COALESCE(StartTimeOfDay,TimeOfDay),TimeZone),12,14) END
+	 + CASE WHEN (EndTimeOfDay IS NOT NULL) THEN '/' + SUBSTRING(dbo.ipt_date_iso8601(2000,1,1,EndTimeOfDay,TimeZone),12,14) ELSE '' END AS [http://rs.tdwg.org/dwc/terms/eventTime],
+	 CASE WHEN GMLFeature IS NOT NULL THEN GMLFeature 
+	 WHEN BoundingBox IS NOT NULL THEN BoundingBox
+     WHEN (StartLongitude IS NOT NULL AND EndLongitude IS NOT NULL AND StartLatitude IS NOT NULL AND EndLatitude IS NOT NULL AND StartLongitude <> EndLongitude AND StartLatitude <> EndLatitude) THEN
+	 CONVERT(VARCHAR(4000),geometry::STPolyFromText('POLYGON(('
++CONVERT(VARCHAR(255),StartLongitude,128)+' '
++CONVERT(VARCHAR(255),StartLatitude,128)+', '
++CONVERT(VARCHAR(255),StartLongitude,128)+' '
++CONVERT(VARCHAR(255),EndLatitude,128)+', '
++CONVERT(VARCHAR(255),EndLongitude,128)+' '
++CONVERT(VARCHAR(255),EndLatitude,128)+', '
++CONVERT(VARCHAR(255),EndLongitude,128)+' '
++CONVERT(VARCHAR(255),StartLatitude,128)+', '
++CONVERT(VARCHAR(255),StartLongitude,128)+' '
++CONVERT(VARCHAR(255),StartLatitude,128)+'))', 4326).STAsText())
+     ELSE NULL END AS [http://rs.tdwg.org/dwc/terms/footprintWKT],
+	 DepthRange AS [http://rs.tdwg.org/dwc/terms/verbatimDepth],
+	 COALESCE('Temperature='+CONVERT(VARCHAR(255),Temperature)+'; ','') + COALESCE('SampleSize='+CONVERT(VARCHAR(255),SampleSize)+'; ','') + COALESCE('ObservedWeight='+CONVERT(VARCHAR(255),ObservedWeight)+'; ','') AS [http://rs.tdwg.org/dwc/terms/dynamicProperties],
+	 lifeStage AS [http://rs.tdwg.org/dwc/terms/lifeStage],
+
+	 -- fields in DwC standard (not in OBIS schema)
+	 'urn:lsid:marinespecies.org:taxname:' + CONVERT(VARCHAR(255), aphia_id) AS [http://rs.tdwg.org/dwc/terms/scientificNameID],
+	 COALESCE(datasetID,'IMIS:dasid:'+CONVERT(varchar(10),imis_dasid)) AS [http://rs.tdwg.org/dwc/terms/datasetID],
+	 NULL AS [http://rs.tdwg.org/dwc/terms/dataGeneralizations],
+	 EventID AS [http://rs.tdwg.org/dwc/terms/eventID],
+	 VerbatimPositionDetail AS [http://rs.tdwg.org/dwc/terms/georeferenceRemarks],
+	 COALESCE(SamplingEffort, SampleSize) AS [http://rs.tdwg.org/dwc/terms/samplingEffort],
+	 SamplingProtocol AS [http://rs.tdwg.org/dwc/terms/samplingProtocol],
+     occurrenceStatus AS [http://rs.tdwg.org/dwc/terms/occurrenceStatus],
+	'EPSG:4326' AS [http://rs.tdwg.org/dwc/terms/geodeticDatum],
+     parentEventID AS [http://rs.tdwg.org/dwc/terms/parentEventID],
+     datasetName AS [http://rs.tdwg.org/dwc/terms/datasetName],
+     locationID AS [http://rs.tdwg.org/dwc/terms/locationID],
+     identificationQualifier AS [http://rs.tdwg.org/dwc/terms/identificationQualifier],
+     type AS [http://purl.org/dc/terms/type],CASE WHEN occurrenceID IS NULL THEN 'urn:catalog:'+COALESCE(institutionCode+':','')+COALESCE(collectionCode+':','')+COALESCE(catalogNumber,'') ELSE occurrenceID END AS [http://rs.tdwg.org/dwc/terms/occurrenceID]  FROM [dbo].[eurobis] WITH (INDEX(IX_eurobis_dataprovider))
+	 INNER JOIN dataproviders ON dataproviders.id=dataprovider_id
+	 WHERE dataprovider_id = 755
