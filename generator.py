@@ -1,10 +1,10 @@
 import psycopg2
-import csv
+
 import zipfile
 from collections import OrderedDict
 from StringIO import StringIO
-import ConfigParser
 import os
+import csv
 
 class ArchiveGenerator:
 
@@ -111,11 +111,3 @@ class ArchiveGenerator:
 		with open("%s/%s.zip" % (self.output_path, self.dataset_name.lower()), "wb") as f:
 			f.write(mf.getvalue())
 
-config = ConfigParser.RawConfigParser()
-config.read("db.conf")
-
-with open("arcod.csv", "rb") as csvfile:
-	res = csv.reader(csvfile, delimiter=",")
-	res.next()
-	for row in res:
-		ArchiveGenerator(row[0], config.get("db", "password")).generate()
