@@ -8,7 +8,7 @@ import csv
 
 class ArchiveGenerator:
 
-    def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./mapping.csv", db_host="obisdb-stage.vliz.be", db_user="obisreader", db_name="obis"):
+    def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./mapping.csv", db_host="obisdb.vliz.be", db_user="obisreader", db_name="obis"):
         self.dataset_id = dataset_id
         self.eml_path = eml_path
         self.output_path = output_path
@@ -53,7 +53,7 @@ class ArchiveGenerator:
     def fetch_data(self):
         fields = ", ".join(("\"" + f + "\"" for f in self.fields.keys()))
         cur = self.conn.cursor()
-        cur.execute("select %s from obis.vdarwincore where \"OBIS_Resource_Id\" = %s" % (fields, self.dataset_id))
+        cur.execute("select %s from obis.vdarwincore_pieter where \"OBIS_Resource_Id\" = %s" % (fields, self.dataset_id))
         res = cur.fetchall()
         if res is None:
             raise Exception("No data found")
