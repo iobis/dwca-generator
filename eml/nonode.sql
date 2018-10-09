@@ -1,1 +1,0 @@
-﻿select id, digirname, imis_dasid, digirurl, resname from obis.resources where not (digirurl ilike '%ipt%' or digirurl ilike '%resource?%')

@@ -1,14 +1,14 @@
 import psycopg2
-
 import zipfile
 from collections import OrderedDict
 from StringIO import StringIO
 import os
 import csv
+import logging
 
 class ArchiveGenerator:
 
-    def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./mapping.csv", db_host="obisdb.vliz.be", db_user="obisreader", db_name="obis"):
+    def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./mapping.csv", db_host="obisdb-stage.vliz.be", db_user="obisreader", db_name="obis"):
         self.dataset_id = dataset_id
         self.eml_path = eml_path
         self.output_path = output_path
@@ -35,11 +35,11 @@ class ArchiveGenerator:
         if res is None:
             raise Exception("Dataset name not found")
         self.dataset_name = res[0]
-        print "Dataset name: %s" % (self.dataset_name)
+        logging.info("Processing dataset: %s" % (self.dataset_name))
 
     def fetch_eml(self):
         path = ("%s/%s/eml.xml" % (self.eml_path, self.dataset_name)).lower()
-        print "Reading %s" % (path)
+        logging.info("Reading EML from %s" % (path))
         with open(path, "r") as eml_file:
             self.eml = eml_file.read()
 
@@ -53,14 +53,15 @@ class ArchiveGenerator:
     def fetch_data(self):
         fields = ", ".join(("\"" + f + "\"" for f in self.fields.keys()))
         cur = self.conn.cursor()
-        cur.execute("select %s from obis.vdarwincore_pieter where \"OBIS_Resource_Id\" = %s" % (fields, self.dataset_id))
+        cur.execute("select %s from obis.vdarwincore_export where \"OBIS_Resource_Id\" = %s" % (fields, self.dataset_id))
         res = cur.fetchall()
         if res is None:
             raise Exception("No data found")
         self.data = res
-        print "Fetched %s records" % (len(self.data))
+        logging.info("Fetched %s records from the OBIS database" % (len(self.data)))
 
     def write_meta(self):
+        logging.info("Writing metadata")
         out = StringIO()
         out.write("<archive xmlns=\"http://rs.tdwg.org/dwc/text/\" metadata=\"eml.xml\">\n")
         out.write("  <core encoding=\"UTF-8\" fieldsTerminatedBy=\"\\t\" linesTerminatedBy=\"\\n\" fieldsEnclosedBy=\"\" ignoreHeaderLines=\"1\" rowType=\"http://rs.tdwg.org/dwc/terms/Occurrence\">\n")
@@ -83,6 +84,7 @@ class ArchiveGenerator:
             return str(value)
 
     def write_data(self):
+        logging.info("Writing data")
         out = StringIO()
         out.write("id\t" + "\t".join(self.fields.keys()) + "\n")
         for r in range(len(self.data)):
@@ -102,13 +104,15 @@ class ArchiveGenerator:
 
     def generate(self):
         if not os.path.exists(self.output_path):
-            print "Creating output directory %s" % (os.path.abspath(self.output_path))
+            logging.info("Creating output directory %s" % (os.path.abspath(self.output_path)))
             os.makedirs(self.output_path)
         mf = StringIO()
         with zipfile.ZipFile(mf, mode="w", compression=zipfile.ZIP_DEFLATED) as zf:
             zf.writestr("%s/meta.xml" % (self.dataset_name.lower()), self.write_meta())
             zf.writestr("%s/eml.xml" % (self.dataset_name.lower()), self.eml)
             zf.writestr("%s/occurrence.txt" % (self.dataset_name.lower()), self.write_data())
-        with open("%s/%s.zip" % (self.output_path, self.dataset_name.lower()), "wb") as f:
+        filename = "%s/%s.zip" % (self.output_path, self.dataset_name.lower())
+        logging.info("Creating ZIP file: %s" % filename)
+        with open(filename, "wb") as f:
             f.write(mf.getvalue())
 

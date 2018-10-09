@@ -1,24 +1,13 @@
-﻿-- View: obis.vdarwincore
+﻿
+drop view if exists obis.vdarwincore_export;
 
--- DROP VIEW obis.vdarwincore;
-
-CREATE OR REPLACE VIEW obis.vdarwincore_pieter AS 
+CREATE OR REPLACE VIEW obis.vdarwincore_export AS 
     SELECT
         dxs.resource_id AS "OBIS_Resource_Id",
         s.sname AS "scientificName",
         s.sauthor AS "scientificNameAuthorship",
-        split_part(dxs.concatenated::text, '|'::text, 1) AS kingdom,
-        split_part(dxs.concatenated::text, '|'::text, 2) AS phylum,
-        split_part(dxs.concatenated::text, '|'::text, 3) AS class,
-        split_part(dxs.concatenated::text, '|'::text, 4) AS "order",
-        split_part(dxs.concatenated::text, '|'::text, 5) AS family,
-        split_part(dxs.concatenated::text, '|'::text, 6) AS genus,
-        split_part(dxs.concatenated::text, '|'::text, 7) AS subgenus,
-        split_part(dxs.concatenated::text, '|'::text, 8) AS "specificEpithet",
-        split_part(dxs.concatenated::text, '|'::text, 9) AS "intraspecificEpithet",
         dxs.sex,
         dxs.lifestage AS "lifeStage",
-        --dxs.scientificnameid AS "scientificNameID",
         CASE
             WHEN t.worms_id is not null THEN 'urn:lsid:marinespecies.org:taxname:' || t.worms_id
             ELSE null
@@ -76,12 +65,14 @@ CREATE OR REPLACE VIEW obis.vdarwincore_pieter AS
         dxs.relationshiptype AS "RelationshipType",
         dxs.relatedcatalogitem AS "RelatedCatalogItem",
         dxs.individualcount,
-        to_char(dxs.datecollected, 'YYYY-MM-DD"T"HH24:MI:SS"Z"'::text) AS eventdate
+        to_char(drs.datecollected, 'YYYY-MM-DD"T"HH24:MI:SS"Z"'::text) AS "eventDate",
+        'present'::text as "occurrenceStatus"
    FROM obis.dxs
+   join obis.drs on dxs.dr_id = drs.id
    JOIN obis.snames s ON dxs.sname_id = s.id
    JOIN obis.tnames t ON t.id = s.tname_id;
 
-ALTER TABLE obis.vdarwincore_pieter
+ALTER TABLE obis.vdarwincore_export
   OWNER TO postgres;
-GRANT ALL ON TABLE obis.vdarwincore_pieter TO postgres;
-GRANT SELECT ON TABLE obis.vdarwincore_pieter TO obisreaders;
+GRANT ALL ON TABLE obis.vdarwincore_export TO postgres;
+GRANT SELECT ON TABLE obis.vdarwincore_export TO obisreaders;

@@ -1,15 +1,6 @@
 OBIS_Resource_Id;
 scientificName;http://rs.tdwg.org/dwc/terms/scientificName
 scientificNameAuthorship;http://rs.tdwg.org/dwc/terms/scientificNameAuthorship
-kingdom;http://rs.tdwg.org/dwc/terms/kingdom
-phylum;http://rs.tdwg.org/dwc/terms/phylum
-class;http://rs.tdwg.org/dwc/terms/class
-order;http://rs.tdwg.org/dwc/terms/order
-family;http://rs.tdwg.org/dwc/terms/family
-genus;http://rs.tdwg.org/dwc/terms/genus
-subgenus;http://rs.tdwg.org/dwc/terms/subgenus
-specificEpithet;http://rs.tdwg.org/dwc/terms/specificEpithet
-intraspecificEpithet;http://rs.tdwg.org/dwc/terms/infraspecificEpithet
 sex;http://rs.tdwg.org/dwc/terms/sex
 lifeStage;http://rs.tdwg.org/dwc/terms/lifeStage
 scientificNameID;http://rs.tdwg.org/dwc/terms/scientificNameID
@@ -48,4 +39,4 @@ dynamicProperties;http://rs.tdwg.org/dwc/terms/dynamicProperties
 RelationshipType;
 RelatedCatalogItem;
 individualcount;http://rs.tdwg.org/dwc/terms/individualCount
-eventdate;http://rs.tdwg.org/dwc/terms/eventDate
+eventDate;http://rs.tdwg.org/dwc/terms/eventDate
