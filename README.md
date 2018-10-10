@@ -9,7 +9,7 @@ Install Python 2.7 and the following dependencies:
 
 - psycopg2-binary
 
-Create `db.conf` with the following content (replace `*****` with actual password):
+Create `config/db.conf` with the following content (replace `*****` with actual password):
 
 ```
 [db]
