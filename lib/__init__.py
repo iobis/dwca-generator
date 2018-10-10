@@ -8,7 +8,7 @@ import logging
 
 class ArchiveGenerator:
 
-    def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./mapping.csv", db_host="obisdb-stage.vliz.be", db_user="obisreader", db_name="obis"):
+    def __init__(self, dataset_id, db_password, eml_path="./eml", output_path="./output", mapping_path="./config/mapping.csv", db_host="obisdb-stage.vliz.be", db_user="obisreader", db_name="obis"):
         self.dataset_id = dataset_id
         self.eml_path = eml_path
         self.output_path = output_path

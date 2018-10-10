@@ -1,5 +1,4 @@
-﻿
-drop view if exists obis.vdarwincore_export;
+﻿drop view if exists obis.vdarwincore_export;
 
 CREATE OR REPLACE VIEW obis.vdarwincore_export AS 
     SELECT

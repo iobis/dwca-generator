@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  ipt:
+    container_name: ipt
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8080"
+    volumes:
+      - ./data:/usr/local/ipt/data

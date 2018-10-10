@@ -1,11 +1,11 @@
-from generator import ArchiveGenerator
+from lib import ArchiveGenerator
 import ConfigParser
 import logging
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
 
 config = ConfigParser.RawConfigParser()
-config.read("db.conf")
+config.read("config/db.conf")
 password = config.get("db", "password")
 
 ids = [12, 1502]
