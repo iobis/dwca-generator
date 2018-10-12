@@ -1,0 +1,111 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4266/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4266</alternateIdentifier>
+      <title xml:lang="eng">DUML vessel-based photo-id and biopsy surveys in VACAPES OPAREA off Hatteras 2009, 2011-2012</title>
+	  <creator>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences Marine Laboratory</organizationName></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The site off Cape Hatteras, North Carolina is subsumed within the Virginia Capes (VACAPES) OPAREA. The survey area encompasses approximately 16,000 km² and includes continental shelf waters and deeper waters beyond the shelf break. The area also includes a large portion of the Cape Hatteras Special Research Area (CHSRA), designated by NOAA Fisheries to address interactions between short-finned pilot whales (Globicephala macrorhynchus) and the pelagic longline fisheries. As part of the Navy’s Atlantic Fleet Training and Testing (AFTT) Monitoring Program, shipboard and aerial surveys were implemented in 2011 to estimate density and document distribution and seasonal residency of marine mammals and sea turtles in the VACAPES OPAREA. Sightings within this dataset are from shipboard photo-ID and biopsy surveys (2011-2013) and also includes sighting data collected from shipboard line transect surveys conducted in 2009.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">http://seamap.env.duke.edu/dataset/907</url></online>
+	 </distribution>
+     <coverage>
+  
+  
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Zach</givenName>
+      <surName>Swaim</surName>
+    </individualName>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences; Marine Laboratory</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Zach.Swaim@duke.edu</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:19:31+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation></citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2761</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4266</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

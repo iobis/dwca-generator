@@ -1,0 +1,304 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3126/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3126</alternateIdentifier>
+      <title xml:lang="eng">Ecoscope tuna bycatch observer data</title>
+	  <creator>
+<individualName>
+      <givenName>Julien</givenName>
+      <surName>Barde</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>julien.barde@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Julien</givenName>
+      <surName>Barde</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>julien.barde@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Pascal</givenName>
+      <surName>Cauquil</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>pascal.cauquil@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Emmanuel</givenName>
+      <surName>Chassot</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>emmanuel.chassot@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Pierre</givenName>
+      <surName>Chavance</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>pierre.chavance@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Céline</givenName>
+      <surName>Rodriguez</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>celine.rodriguez@ird.fr</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Julien</givenName>
+      <surName>Barde</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>julien.barde@ird.fr</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Tuna bycatch observer data.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Bycatches</keyword>
+<keyword>Tuna fisheries</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/18902">
+          <geographicDescription>ANE, Atlantic - http://marineregions.org/mrgid/18902</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>-24.133472</westBoundingCoordinate>
+            <eastBoundingCoordinate>79.68347</eastBoundingCoordinate>
+            <northBoundingCoordinate>15.866806</northBoundingCoordinate>
+            <southBoundingCoordinate>-21.866806</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/1904">
+          <geographicDescription>ISW, Indian Ocean - http://marineregions.org/mrgid/1904</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>-24.133472</westBoundingCoordinate>
+            <eastBoundingCoordinate>79.68347</eastBoundingCoordinate>
+            <northBoundingCoordinate>15.866806</northBoundingCoordinate>
+            <southBoundingCoordinate>-21.866806</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:11676">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:11676</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>superclass</taxonRankName>
+		  <taxonRankValue>Pisces</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Julien</givenName>
+      <surName>Barde</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>julien.barde@ird.fr</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Pascal</givenName>
+      <surName>Cauquil</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>pascal.cauquil@ird.fr</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Emmanuel</givenName>
+      <surName>Chassot</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>emmanuel.chassot@ird.fr</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Pierre</givenName>
+      <surName>Chavance</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>pierre.chavance@ird.fr</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Céline</givenName>
+      <surName>Rodriguez</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>celine.rodriguez@ird.fr</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:09:44+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation identifier="http://doi.org/10.15468/23m361">Cauquil, P., Barde, J., Rodriguez, C., Chassot, E., Chavance, P. 2012. Ecoscope tuna bycatch observer data. Institut de Recherche pour le Developpement (IRD). http://doi.org/10.15468/23m361</citation>
+        <physical>
+          <objectName>DOI</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://doi.org/10.15468/23m361</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=3126</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/3126</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>GBIF dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.gbif.org/dataset/54bae6ef-8b4e-4ad3-8729-c4296299e5c7</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2484</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://vmirdgbif-proto.mpl.ird.fr:8080/ipt/resource.do?r=observe_tuna_bycatch</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3126</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

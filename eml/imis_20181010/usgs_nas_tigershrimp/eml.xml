@@ -1,0 +1,217 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5561/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5561</alternateIdentifier>
+      <title xml:lang="eng">United States Geological Survey Nonindigenous Aquatic Species Database Asian Tiger Shrimp</title>
+	  <creator>
+<individualName>
+      <givenName>Pam</givenName>
+      <surName>Fuller</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey (USGS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>pfuller@usgs.gov</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Abigail</givenName>
+      <surName>Benson</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey (USGS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>albenson@usgs.gov</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The Nonindigenous Aquatic Species Database (NAS) information resource is an established central repository for spatially referenced biogeographic accounts of introduced aquatic species. The NAS website provides scientific reports, online/real-time queries, spatial data sets, distribution maps, fact sheets, and general information.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4287">
+          <geographicDescription>ASW, Caribbean - http://marineregions.org/mrgid/4287</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/8641">
+          <geographicDescription>ASW, Greater Antilles, Puerto Rico - http://marineregions.org/mrgid/8641</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/4288">
+          <geographicDescription>ASW, Mexico Gulf - http://marineregions.org/mrgid/4288</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>AW, USA, South Atlantic Bight</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/8679">
+          <geographicDescription>ISE, USA, Hawaii - http://marineregions.org/mrgid/8679</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/8599">
+          <geographicDescription>ISEW, Marianas, Guam - http://marineregions.org/mrgid/8599</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/8642">
+          <geographicDescription>Lesser Antilles, US Virgin I. - http://marineregions.org/mrgid/8642</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1988-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2014-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:210378">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:210378</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Penaeus monodon (Fabricus, 1789)
+</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Abigail</givenName>
+      <surName>Benson</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey (USGS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>albenson@usgs.gov</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Pam</givenName>
+      <surName>Fuller</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey (USGS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>pfuller@usgs.gov</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:29:30+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation></citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4324</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www1.usgs.gov/obis-usa/ipt/resource?r=usgs_nas_tigershrimp</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5561</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

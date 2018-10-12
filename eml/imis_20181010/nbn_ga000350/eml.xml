@@ -1,0 +1,185 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_1882/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_1882</alternateIdentifier>
+      <title xml:lang="eng">Seaweed data for Great Britain and Ireland</title>
+	  <creator>
+<organizationName>British Phycological Society (BPS)</organizationName>
+<electronicMailAddress>j.pottas@hull.ac.uk</electronicMailAddress>
+</creator><creator>
+<organizationName>National Biodiversity Network Trust (NBN)</organizationName>
+<electronicMailAddress>nbngateway@ceh.ac.uk</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Seaweed records for the coasts of England, Ireland, Scotland and Wales held by the Biological Records Centre on behalf of the British Phycological Society, which is the primary dataset owner. The majority of the data were collected by members of the British Phycological Society as part of the Marine Algae Recording Scheme (http://www.brc.ac.uk/recording_schemes.asp) and were published in the 2003 atlas (see below).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Algae</keyword>
+<keyword>Long-term monitoring</keyword>
+<keyword>Monitoring</keyword>
+<keyword>Seaweeds</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">https://data.nbn.org.uk/Datasets/GA000350</url></online>
+	 </distribution>
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/3140">
+          <geographicDescription>ANE, British Isles - http://marineregions.org/mrgid/3140</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/2114">
+          <geographicDescription>ANE, Ireland - http://marineregions.org/mrgid/2114</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1750-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2003-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:801">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:801</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum (division)</taxonRankName>
+		  <taxonRankValue>Chlorophyta</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:852">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:852</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum (division)</taxonRankName>
+		  <taxonRankValue>Rhodophyta</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Michael</givenName>
+      <surName>Guiry</surName>
+    </individualName>
+<organizationName>National University of Ireland Galway; Ryan Institute for Environmental, Marine and Energy Research</organizationName>
+<address>
+      <country>IE</country>
+    </address>
+<electronicMailAddress>michael.guiry@nuigalway.ie</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:05:43+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation identifier="http://doi.org/10.15468/v3qlue">UK National Biodiversity Network, British Phycological Society - Seaweed data for Great Britain and Ireland. http://doi.org/10.15468/v3qlue</citation>
+        <physical>
+          <objectName>DOI</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://doi.org/10.15468/v3qlue</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>GBIF dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.gbif.org/dataset/41754ccf-f293-4183-b0fe-5efbdffe597c</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/701</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=1882</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

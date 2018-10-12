@@ -1,0 +1,155 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5235/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5235</alternateIdentifier>
+      <title xml:lang="eng">Sea Education Association Sargasso Sea Cruise C247 May 2013</title>
+	  <creator>
+<individualName>
+      <givenName>Erik</givenName>
+      <surName>Zettler</surName>
+    </individualName>
+<organizationName>Boston University; Sea Education Association (SEA)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>ezettler@sea.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Abigail</givenName>
+      <surName>Benson</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey (USGS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>albenson@usgs.gov</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This data set was collected by staff and students at Sea Education Association aboard the sailing/research vessel SSV Corwith Cramer as part of an undergraduate off-campus study program Sea Semester: Marine Biodiversity and Conservation. The cruise track was from St. Croix, USVI to New York, NY, with a stop in Bermuda. Most of the samples were collected using nets deployed along the cruise track on a daily basis.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/15273">
+          <geographicDescription>ASW, Sargasso Sea - http://marineregions.org/mrgid/15273</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2013-05-01</calendarDate></beginDate>
+            <endDate><calendarDate>2013-05-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Erik</givenName>
+      <surName>Zettler</surName>
+    </individualName>
+<organizationName>Boston University; Sea Education Association (SEA)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>ezettler@sea.edu</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Abigail</givenName>
+      <surName>Benson</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey (USGS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>albenson@usgs.gov</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:08+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation></citation>
+        <physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://bison.ornl.gov/iptobis/resource.do?r=sea_cruise_c247_2013</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3944</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5235</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

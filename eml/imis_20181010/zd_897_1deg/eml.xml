@@ -1,0 +1,157 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4847/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4847</alternateIdentifier>
+      <title xml:lang="eng">South American sea lions foraging Uruguay</title>
+	  <creator>
+<individualName>
+      <givenName>Federico Germán</givenName>
+      <surName>Riet-Sapriza</surName>
+    </individualName>
+<organizationName>University of the Republic of Uruguay (UDELAR)</organizationName>
+<address>
+      <country>UY</country>
+    </address>
+<electronicMailAddress>frietsapriza@gmail.com</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences Marine Laboratory</organizationName></metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Resource competition between fisheries and marine mammal continue to raise concern worldwide. Understanding this complex conflict requires data on spatial and dietary overlap of marine mammal and fisheries. In Uruguay, the South American sea lions population has been dramatically declining over the past decade. The reasons for this population decline are unknown but may include the following: </br>(1) direct harvesting; </br>(2) reduced prey availability and distribution as a consequence of environmental change; or </br>(3) biological interaction with fisheries. This study aims to determine resource overlap and competition between South American sea lions (SASL, <i>Otaria flavescens</i>, n=10) and the artisanal fisheries (AF), and the coastal bottom trawl fisheries (CBTF).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/8467">
+          <geographicDescription>ASW, Uruguay - http://marineregions.org/mrgid/8467</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2009-01-16</calendarDate></beginDate>
+            <endDate><calendarDate>2009-03-03</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:231425">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:231425</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Otaria flavescens</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Federico Germán</givenName>
+      <surName>Riet-Sapriza</surName>
+    </individualName>
+<organizationName>University of the Republic of Uruguay (UDELAR)</organizationName>
+<address>
+      <country>UY</country>
+    </address>
+<electronicMailAddress>frietsapriza@gmail.com</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:48+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>&lt;a href=&#039;http://www.sciencedirect.com/science/article/pii/S0967064512001701&#039; target=&#039;reference&#039;&gt;Riet-Sapriza, F.G., D.P. Costa, V. Franco-Trecu, Y. Marín, J. Chocca, B. González, G. Beathyate, B.L. Chilvers and L.A. Hückstadt. 2013. Foraging behavior of lactating South American sea lions (&lt;i&gt;Otaria flavescens&lt;/i&gt;) and spatial–temporal resource overlap with the Uruguayan fisheries. Deep-Sea Research Part II-Topical Studies in Oceanography&lt;/a&gt;</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3408</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_897_1deg</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/897</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4847</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

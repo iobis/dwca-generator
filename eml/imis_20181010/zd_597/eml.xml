@@ -1,0 +1,170 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3543/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3543</alternateIdentifier>
+      <title xml:lang="eng">Cetacean observations in the waters of Karaginsky Island and Beringa Island in 2009</title>
+	  <creator>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Observations of cetaceans in the waters of Karaginsky Island and Beringa Island in 2009.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">http://seamap.env.duke.edu/dataset/597</url></online>
+	 </distribution>
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1903">
+          <geographicDescription>I, North Pacific - http://marineregions.org/mrgid/1903</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2009-06-04</calendarDate></beginDate>
+            <endDate><calendarDate>2009-09-07</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137087">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137087</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Balaenoptera acutorostrata Lacépède, 1804</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137092">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137092</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Megaptera novaeangliae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137102">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137102</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Orcinus orca</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137117">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137117</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Phocoena phocoena (Linnaeus, 1758)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:254987">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:254987</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Phocoenoides dalli</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Olga</givenName>
+      <surName>Filatova</surName>
+    </individualName>
+<organizationName>Moscow State University; Department of Biology; Department of Vertebrate Zoology</organizationName>
+<address>
+      <country>RU</country>
+    </address>
+<electronicMailAddress>alazor@rambler.ru</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:14:21+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation></citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2065</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3543</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

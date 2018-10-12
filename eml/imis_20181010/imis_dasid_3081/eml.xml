@@ -1,0 +1,214 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3081/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3081</alternateIdentifier>
+      <title xml:lang="eng">Tethys Research Institute aerial survey cetacean sightings 2009-2011</title>
+	  <creator>
+<organizationName>Tethys Research Institute</organizationName></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Aerial survey cetacean sightings between 2009 and 2011 in the Pelagos Sanctuary, the Central Tyrrhenian, the Corsica and Sardinia Seas, the Ionian Sea and the Gulf of Taranto.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Cetacea</keyword>
+<keyword>Marine mammals</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/3351">
+          <geographicDescription>Station: The Ionian Sea</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/3330">
+          <geographicDescription>Station: Sardinian Sea</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/3567">
+          <geographicDescription>Station: The Gulf of Taranto</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>MED, Pelagos Sanctuary</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/3386">
+          <geographicDescription>Station: The Central Tyrrhenian Sea</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2009-01-12</calendarDate></beginDate>
+            <endDate><calendarDate>2011-01-19</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2688">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2688</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Cetacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Caterina</givenName>
+      <surName>Lanfredi</surName>
+    </individualName></contact><contact>
+<individualName>
+      <givenName>Giuseppe</givenName>
+      <surName>Notarbartolo di Sciara</surName>
+    </individualName>
+<organizationName>Tethys Research Institute</organizationName>
+<address>
+      <country>IT</country>
+    </address>
+<electronicMailAddress>gn@disciara.net</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:09:35+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Lanfredi, C., Notarbartolo di Sciara, G., Kot, C. 2011. Tethys Research Institute aerial survey cetacean sightings 2009-2011. Tethys Research Institute.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=3081</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/3081</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource?r=zd_776</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/776</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3081</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

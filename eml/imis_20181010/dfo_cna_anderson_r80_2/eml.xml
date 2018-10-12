@@ -1,0 +1,169 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4736/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4736</alternateIdentifier>
+      <title xml:lang="eng">BioChem: Seston and phytoplankton data from Hudson Bay, 1975</title>
+	  <creator>
+<individualName>
+      <givenName>John T.</givenName>
+      <surName>Anderson</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address></creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Mary</givenName>
+      <surName>Kennedy</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography; Ocean Sciences Division; Biological Oceanography</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>mary.kennedy@dfo-mpo.gc.ca</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Between August 7 and September 23, 1975, data on marine seston and phytoplankton were obtained from one litre water samples collected by a pump collecting water samples from Hudson Bay, Canada. Survey results consist of density (number of individuals per litre). The original survey report also contains information on methods and results of salinity, chlorophyll a concentration, ATP concentration, POC and PON measurements. The OBIS view of this dataset includes only the species abundance information. This research was collected with the Canadian Hydrographic Services and involved continuous sampling along pre-determined transects through Hudson Bay. This presented a unique opportunity to collect samples on a spatial and temporal frequency never before possible during a single sampling season from the entire area of Hudson Bay.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4252">
+          <geographicDescription>PNW, Canada, Hudson Bay - http://marineregions.org/mrgid/4252</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1975-08-08</calendarDate></beginDate>
+            <endDate><calendarDate>1975-09-23</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Animalia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:6">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:6</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Bacteria</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:7">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:7</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Chromista</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:3">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:3</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Plantae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:5">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:5</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Protozoa</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Government of Canada; Department of Fisheries and Oceans Bedford Institute of Oceanography (DFO-BIO)</organizationName></contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:22:34+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Anderson, John T. 1979. Seston and phytoplankton data from Hudson Bay, 1975. Ver1 In OBIS Canada Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS. http://www.iobis.org/. (consulted on [date])</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2808</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource.do?r=dfo_cna_anderson_r80_2</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4736</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

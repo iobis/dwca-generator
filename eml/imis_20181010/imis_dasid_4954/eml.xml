@@ -1,0 +1,147 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4954/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4954</alternateIdentifier>
+      <title xml:lang="eng">Free-living marine Nematodes from Ali, Rada Tilly and El Limite sandy beaches (Chubut, Argentina) 2006.</title>
+	  <creator>
+<individualName>
+      <givenName>Vrigina</givenName>
+      <surName>Lo Russo</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Catalina  T.</givenName>
+      <surName>Pastor</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>pastor@cenpat.edu.ar</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Catalina  T.</givenName>
+      <surName>Pastor</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>pastor@cenpat.edu.ar</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The aim of this database is collecting all the registered data of free-living marine Nematodes species from Ali, Rada Tilly and El Limite sandy beaches during March 2006. </br>
+The project objectives were to perform first time in Argentina, an inventory of marine meiofauna taxa coastal in urban and natural beaches. Studying them, using multivariate methods and studying how these relate to environmental variables. Trying to observe the biogeographic patterns from 40 ° 43 'Lat S (Río Negro province) to 45 ° 59' Lat S (Chubut province).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>Unknown</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/9052">
+          <geographicDescription>PSW, Argentina, Chubut - http://marineregions.org/mrgid/9052</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2006-04-01</calendarDate></beginDate>
+            <endDate><calendarDate>2006-04-02</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:799">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:799</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Nematoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Catalina  T.</givenName>
+      <surName>Pastor</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>pastor@cenpat.edu.ar</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:25:15+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>V. Lo Russo, G. Villares, A. Martelli, C.T. Pastor de Ward and C. Harguinteguy. 2012 New species of Epacanthion (Nematoda: Thoracostomopsidae) from Patagonia coast, Río Negro and Chubut, Argentina. Journal of the Marine Biological Association of the United Kingdom / Volume 93 / Issue 04 / June 2013, pp 925-934</citation>
+        <physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.cenpat-conicet.gov.ar:8080/ipt-2.0.3/resource.do?r=inv_nem_sacsb</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4954</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

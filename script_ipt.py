@@ -3,27 +3,43 @@ import ConfigParser
 import logging
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
+import psycopg2
 
 config = ConfigParser.RawConfigParser()
 config.read("config/db.conf")
 password = config.get("db", "password")
 
-ids = [12, 1502]
+def fetch_ids():
+    conn = psycopg2.connect("host='%s' user='%s' password='%s' dbname='%s'" % ("obisdb-stage.vliz.be", "obisreader", password, "obis"))
+    cur = conn.cursor()
+    q = "select id from obis.resources where not digirurl ilike '%resource?r=%'"
+    cur.execute(q)
+    ids = cur.fetchall()
+    return [item for sublist in ids for item in sublist]
 
-for id in ids:
-    archive = ArchiveGenerator(dataset_id=id, db_password=password, eml_path="./eml/OBIS_no-node_IMIS2EML_2017-12-19")
-    directory = "./ipt-docker/data/resources/" + archive.dataset_name.lower()
+ids = fetch_ids()
 
-    # dwca
+for i, id in enumerate(ids):
+    logging.info(i)
 
-    filename = "dwca-1.0.zip"
-    archive.generate(directory, filename=filename)
+    try:
+        archive = ArchiveGenerator(dataset_id=id, db_password=password, eml_path="./eml/imis_20181010")
+        directory = "./ipt-docker/data/resources/" + archive.dataset_name.lower()
 
-    # eml
+        # dwca
 
-    archive.save_eml(directory + "/eml-1.0.xml")
-    archive.save_eml(directory + "/eml.xml")
+        filename = "dwca-1.0.zip"
+        archive.generate(directory, filename=filename)
 
-    # xml
+        # eml
 
-    archive.save_resource_xml(directory + "/resource.xml")
+        archive.save_eml(directory + "/eml-1.0.xml")
+        archive.save_eml(directory + "/eml.xml")
+
+        # xml
+
+        archive.save_resource_xml(directory + "/resource.xml")
+
+    except Exception as e:
+        logging.error("Error generating dataset directory for dataset %s" % (id))
+        logging.error(e)

@@ -1,0 +1,145 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5589/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5589</alternateIdentifier>
+      <title xml:lang="eng">Survey data of seagrass beds on the Monitoring sites 1000 project, BDCJ</title>
+	  <creator>
+<organizationName>Ministry of Environment of Japan; Biodiversity Center of Japan Ecosystem Monitoring Unit</organizationName>
+<electronicMailAddress>mot@biodic.go.jp</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Ministry of Environment of Japan; Biodiversity Center of Japan Ecosystem Monitoring Unit</organizationName>
+<electronicMailAddress>mot@biodic.go.jp</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This dataset contains data of the occurrence of seagrass species which was recorded at the Monitoring Sites 1000 Projects: Coastal Area Survey (Seagrass beds). The annual survey was carried out with six places of Japanese coast from north (Hokkaido) to south (Okinawa). In addition, the data about reference specimens (seagrass and macrozoobenthos) in the survey every five years is included. The data of this dataset is derived from the data file of the Monitoring Sites 1000 Projects: Coastal Area Survey. The data file includes the information about quantity data of seagrass (a cover degree, biomass).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/2121">
+          <geographicDescription>INW, Japan - http://marineregions.org/mrgid/2121</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2009-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2014-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:143768">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:143768</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Cymodoceaceae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:143751">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:143751</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Hydrocharitaceae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:144233">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:144233</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>genus</taxonRankName>
+		  <taxonRankValue>Zostera</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Ministry of Environment of Japan; Biodiversity Center of Japan Ecosystem Monitoring Unit</organizationName>
+<electronicMailAddress>mot@biodic.go.jp</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:29:53+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Biodiversity Center of Japan, Ministry of the Environment. Data file of seagrass beds survey on Monitoring sites 1000 project at http://www.biodic.go.jp/moni1000/findings/data/index_file_seagrassbeds.html. Accessed on yyyy-mm-dd.</citation>
+        <physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.godac.jamstec.go.jp/ipt/resource?r=bdcj_mot-sb</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4358</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5589</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

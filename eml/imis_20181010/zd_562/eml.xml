@@ -1,0 +1,135 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3083/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3083</alternateIdentifier>
+      <title xml:lang="eng">Loggerhead turtles in Slovenian and adjacent waters in 2002-2008</title>
+	  <creator>
+<organizationName>Morigenos - marine mammal research and conservation society</organizationName>
+<electronicMailAddress>morigenos@email.si</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This dataset is one of the largest datasets on free-ranging marine turtles in the north Adriatic Sea. It comprises the work carried out by Morigenos in Slovenian and adjacent waters of the north Adriatic Sea, between 2002 and 2008.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Sea turtles</keyword>
+<keyword>Wildlife conservation</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>Restricted</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/3314">
+          <geographicDescription>Station: Slovenian and adjacent waters</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>13.25</westBoundingCoordinate>
+            <eastBoundingCoordinate>13.61</eastBoundingCoordinate>
+            <northBoundingCoordinate>45.66</northBoundingCoordinate>
+            <southBoundingCoordinate>45.18</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2002-08-01</calendarDate></beginDate>
+            <endDate><calendarDate>2008-08-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137205">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137205</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Caretta caretta</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Tilen</givenName>
+      <surName>Genov</surName>
+    </individualName>
+<organizationName>Morigenos - marine mammal research and conservation society</organizationName>
+<address>
+      <country>SI</country>
+    </address>
+<electronicMailAddress>tilen_genov@msn.com</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:09:36+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>&lt;p&gt;
+Genov, T., Fujioka, E. 2008. Loggerhead turtles in Slovenian and adjacent waters in 2002-2008. Morigenos - marine mammal research and conservation society, Slovenia.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/562</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3083</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

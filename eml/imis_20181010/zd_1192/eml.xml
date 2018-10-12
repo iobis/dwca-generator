@@ -1,0 +1,170 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4868/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4868</alternateIdentifier>
+      <title xml:lang="eng">Virginia CZM Wind Energy Area Survey- Left side - November 2012 through April 2014</title>
+	  <creator>
+<individualName>
+      <givenName>Gwen</givenName>
+      <surName>Lockhart</surName>
+    </individualName>
+<organizationName>Virginia Aquarium &amp; Marine Science Center</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>glockhar@virginiaaquarium.com</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Sarah D.</givenName>
+      <surName>Mallette</surName>
+    </individualName>
+<organizationName>Virginia Aquarium &amp; Marine Science Center</organizationName>
+<address>
+      <country>US</country>
+    </address></creator>
+      <metadataProvider>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences Marine Laboratory</organizationName></metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[On November 1, 2013, Bureau of Ocean Energy Management (BOEM) announced Dominion Virginia Power was the provisional winner of the commercial lease area offshore of Virginia (VA WEA). Development of off shore wind energy poses potential threats to marine mammals, including direct effects (i.e. vessel interactions, collision and entanglement with structures, displacement, avoidance, or injury due to noise from construction or operations) and indirect threats (i.e. effects on prey species, increased risk of fishery and vessel interaction through displacement out of the WEA) (BOEM 2012). This information is important to mitigate the potentially harmful impacts from ocean development, shipping, and other anthropogenic activities. To address these existing data gaps, we have collected marine mammal sighting data from multiple platforms in addition to sea turtle sighting data off the coast of Virginia from 2012 to 2014.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/18956">
+          <geographicDescription>ANW, USA, Virginia - http://marineregions.org/mrgid/18956</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2012-11-26</calendarDate></beginDate>
+            <endDate><calendarDate>2014-04-25</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2688">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2688</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Cetacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:136999">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:136999</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Chelonidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage>
+		 <generalTaxonomicCoverage>Chondrichthyes</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName></taxonRankName>
+		  <taxonRankValue>Chondrichthyes</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences Marine Laboratory</organizationName></contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:58+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Sarah D. Mallette, Gwen G. Lockhart, Ryan J. McAlarney, Erin W. Cummings, William A. McLellan, D. Ann Pabst and Susan G. Barco. 2014. Documenting Whale Migration off Virginia’s Coast for Use in Marine Spatial Planning: Aerial and Vessel Surveys in the Proximity of the Virginia Wind Energy Area (VA WEA). VAQF Scientific Report 2014-08. pp. 89</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3364</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_1192</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/1192</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4868</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

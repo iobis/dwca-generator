@@ -1,0 +1,156 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5295/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5295</alternateIdentifier>
+      <title xml:lang="eng">Zooplankton distribution in the Arctic Ocean based on samples collected at Ice Island T-3 in 1964</title>
+	  <creator>
+<individualName>
+      <givenName>Gareth</givenName>
+      <surName>Harding</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography (BIO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>hardingg@mar.dfo-mpo.gc.ca</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Plankton samples were collected to obtain information on zooplankton distribution in the Canadian Basin from the Ice Island T-3 during the summer of 1964. This resource contains summarized species distribution information recorded as part of a university MSc thesis.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4256">
+          <geographicDescription>PNW, Beaufort Sea - http://marineregions.org/mrgid/4256</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1964-06-23</calendarDate></beginDate>
+            <endDate><calendarDate>1964-09-08</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Gareth</givenName>
+      <surName>Harding</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography (BIO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>hardingg@mar.dfo-mpo.gc.ca</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Mary</givenName>
+      <surName>Kennedy</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography; Ocean Sciences Division; Biological Oceanography</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>mary.kennedy@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:21+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Harding, Gareth C.H.(2016). Zooplankton distribution in the Arctic Ocean based on samples collected at Ice Island T-3 in 1964. Version 2 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4017</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource?r=harding_mcgill_msc_1966</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5295</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,110 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3981/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3981</alternateIdentifier>
+      <title xml:lang="eng">NEFSC Benthic Database</title>
+	  <creator>
+<organizationName>National Oceanic and Atmospheric Administration; National Marine Fisheries Service Northeast Fisheries Science Center (NOAA-NEFSC)</organizationName></creator><creator>
+<organizationName>National Oceanic and Atmospheric Administration; National Marine Fisheries Service Northeast Fisheries Science Center (NOAA-NEFSC)</organizationName></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Benthic fauna data has been collected from 1881 to the present by the National Marine Fisheries Service Laboratories at Woods Hole, MA and Sandy Hook, NJ. The data includes the work by Wigley and Theroux on the macrofauna of the Northeastern United States. Other major studies include Ocean Pulse, the Northeast Monitoring Program, New York Bight, 12 Mile Dumpsite, Long Island Sound and Raritan Bay surveys. Parameters included in these surveys include depth, sediment type, gear type, number, weight, family, class, genus, species name, and abundance. A total of 21,000 sample sites are included in this data set with 4,000 meters being the maximum depth sampled.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+  
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Steven</givenName>
+      <surName>Fromm</surName>
+    </individualName>
+<organizationName>Federal Government of the United States of America; Department of Commerce; National Oceanic and Atmospheric Administration; National Marine Fisheries Service; Northeast Fisheries Science Center (NEFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>steven.fromm@noaa.gov</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:17:37+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Northeast Fisheries Science Center, National Marine Fisheries Service, NOAA, U.S. Department of Commerce. 2010. NEFSC Benthic Database. Northeast Fisheries Science Center, 166 Water Street, Woods Hole Laboratories, Woods Hole, MA 02543.Retrieved from http://www.usgs.gov/obis-usa/</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/1694</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3981</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

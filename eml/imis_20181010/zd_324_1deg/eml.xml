@@ -1,0 +1,166 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4871/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4871</alternateIdentifier>
+      <title xml:lang="eng">Waved Albatross Tracking</title>
+	  <creator>
+<individualName>
+      <givenName>David J.</givenName>
+      <surName>Anderson</surName>
+    </individualName>
+<organizationName>Wake Forest University</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>da@wfu.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences Marine Laboratory</organizationName></metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[All birds studied via satellite tracking were nesting in the same part of the breeding colony at Punta Cevallos, on the eastern point of Isla Española (Galápagos archipelago). In 2000 and 2001, a tape attachment method was used to attach Platform Transmitter Terminals (PTTs; Microwave Telemetry Inc., Columbia MD USA) to the dorsal feathers of birds at the nest. The birds were tracked using the satellites of the Argos System (Service Argos, Largo MD USA). In 2000, five PTTs used this duty cycle, while two others transmitted continuously, and in 2001 all six transmitters transmitted continuously.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/5660">
+          <geographicDescription>ISE, Ecuador, Galapagos I. - http://marineregions.org/mrgid/5660</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/8432">
+          <geographicDescription>ISE, Peru - http://marineregions.org/mrgid/8432</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2000-05-11</calendarDate></beginDate>
+            <endDate><calendarDate>2001-07-21</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:148742">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:148742</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Diomedeidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>David</givenName>
+      <surName>Hyrenbach</surName>
+    </individualName>
+<organizationName>Duke University; Nicholas School of the Environment and Earth Sciences; Marine Laboratory</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>khyrenbach@duke.edu</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:24:02+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Anderson, D.J., K.P. Huyvaert, D.R. Wood, C.L. Gillikin, B.J. Frost, and H. Mouritsen. 2003. At-sea distribution of waved albatrosses and the Galapagos Marine Reserve. Biological Conservation. 110 (3): 367-373</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3302</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_324_1deg</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/324</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4871</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

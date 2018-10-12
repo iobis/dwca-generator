@@ -1,0 +1,199 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3419/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3419</alternateIdentifier>
+      <title xml:lang="eng">Whale Observations from the British, Australian and New Zealand Antarctic Reaserch Expedition (BANZARE) voyages 1929-30 and 1930-31</title>
+	  <creator>
+<organizationName>Australian Antarctic Division Australian Antarctic Data Centre (AAD)</organizationName>
+<electronicMailAddress>aadcwebqueries@aad.gov.au</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Observations of whales collated from the logs of the two British, Australian and New Zealand Antarctic Reaserch Expedition (BANZARE) voyages 19-Oct-1929 to 1-April-1930 and 22-Nov-1930 to 19-Mar-1931. Covers six whale species - Blue, Fin, Sei, Minke, Orca and Humpback. Any whale observations which were not identified at the species level have been excluded from this collection.
+
+Original data obtained from http://data.aad.gov.au/digir/DiGIR.php and registered into iOBIS on 2009-01-27. This dataset on OBIS-SEAMAP is a <b>subset</b> of marine mammal, seabird and/or sea turtle records from the dataset on iOBIS (Total number of records: 144) harvested into OBIS-SEAMAP on 2011-10-11.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>Restricted</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1904">
+          <geographicDescription>ISW, Indian Ocean - http://marineregions.org/mrgid/1904</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/1907">
+          <geographicDescription>PS, Southern Ocean - http://marineregions.org/mrgid/1907</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1929-10-21</calendarDate></beginDate>
+            <endDate><calendarDate>1931-03-10</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137088">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137088</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Balaenoptera borealis</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137090">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137090</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Balaenoptera musculus</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137091">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137091</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Balaenoptera physalus</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137097">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137097</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Globicephala melas (Traill, 1809)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137092">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137092</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Megaptera novaeangliae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137102">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137102</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Orcinus orca</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137119">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137119</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Physeter macrocephalus Linnaeus, 1758</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Dave</givenName>
+      <surName>Watts</surName>
+    </individualName>
+<organizationName>Australian Antarctic Division; Australian Antarctic Data Centre</organizationName>
+<address>
+      <country>AU</country>
+    </address>
+<electronicMailAddress>dave.watts@aad.gov.au</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:12:59+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Johnston TH. (2000) Whale and Seal Observations 1929-31 and 1930-31 Pp 30-65. in Shaughnessy, P.D. (ed.) 2000 Antarctic seals, whales and dolphins of the early twentieth century: Marine mammals of the Australasian Antarctic Expedition 1911-14 (AAE) and the British, Australian and New Zealand Antarctic Research Expedition 1929-31 (BANZARE), ANARE Reports 142, 172pp. See Metadata record http://data.aad.gov.au/aadc/metadata/metadata_redirect.cfm?md=AMD/AU/ASAC_140.&lt;p&gt;Contact Dave Watts for details on citation details.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/599</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/103150599</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3419</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

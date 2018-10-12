@@ -1,0 +1,175 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5176/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5176</alternateIdentifier>
+      <title xml:lang="eng">Distribution of Hydrothermal Alvinocaridid Shrimps</title>
+	  <creator>
+<individualName>
+      <givenName>Anastasia</givenName>
+      <surName>Lunina</surName>
+    </individualName>
+<organizationName>Russian Academy of Sciences; P. P. Shirshov Institute of Oceanology (SIO RAS)</organizationName>
+<address>
+      <country>RU</country>
+    </address>
+<electronicMailAddress>yalunina@list.ru</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The aim of this study is to review of our knowledge about distribution of recently known species of vent shrimps and to analyze factors influencing distribution patterns. Analyses are based upon (1) original material taken during eight cruises in the Atlantic Ocean (a total of 5861 individuals) and (2) available literature data from the Atlantic, Pacific, and Indian Oceans. Vent shrimps have two patterns of the species ranges: local (single vent site) and regional (three - six vent sites).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1902">
+          <geographicDescription>A, Atlantic - http://marineregions.org/mrgid/1902</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/1903">
+          <geographicDescription>I, Pacific - http://marineregions.org/mrgid/1903</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/1904">
+          <geographicDescription>ISW, Indian Ocean - http://marineregions.org/mrgid/1904</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:106779">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:106779</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Alvinocarididae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Anastasia</givenName>
+      <surName>Lunina</surName>
+    </individualName>
+<organizationName>Russian Academy of Sciences; P. P. Shirshov Institute of Oceanology (SIO RAS)</organizationName>
+<address>
+      <country>RU</country>
+    </address>
+<electronicMailAddress>yalunina@list.ru</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:26:48+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Lunina AA, Vereshchaka AL (2014). Data from: Distribution of Hydrothermal Alvinocaridid Shrimps: Effect of Geomorphology and Specialization to Extreme Biotopes. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 76 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=alvinocaridi_shrimps released on June 20, 2015.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3910</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://nzobisipt.niwa.co.nz/resource.do?r=alvinocaridi_shrimps</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5176</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

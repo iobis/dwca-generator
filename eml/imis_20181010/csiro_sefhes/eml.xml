@@ -1,0 +1,117 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4056/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4056</alternateIdentifier>
+      <title xml:lang="eng">CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997</title>
+	  <creator>
+<individualName>
+      <givenName>Alan</givenName>
+      <surName>Williams</surName>
+    </individualName>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation (CSIRO)</organizationName>
+<address>
+      <country>AU</country>
+    </address>
+<electronicMailAddress>Alan.Williams@csiro.au</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation Marine and Atmospheric Research (CSIRO-CMAR)</organizationName>
+<electronicMailAddress>reception@cmar.csiro.au</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[These data were collected over the period 1993-1996 (-7) as part of the CSIRO Fisheries South East Fishery Habitat Ecosystem Study in Australia, on four research cruises of the vessel Southern Surveyor plus ancillary data from commercial vessels. The data were collected by a variety of methods including trawls, sleds, gillnets and fish traps. Related data also collected during this study included acoustics, biological hardparts (otoliths, vertebrae, and spines), current meter data, nutrients, physical oceanographic data, phytoplankton pigments, sediment size, stable isotopes, towed video and zooplankton biomass/counts.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+  
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation Marine and Atmospheric Research (CSIRO-CMAR)</organizationName>
+<electronicMailAddress>reception@cmar.csiro.au</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:18:17+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>CSIRO - SE Fishery habitat &amp; ecosystem study 1993-1996</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3556</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ogc-act.csiro.au/ipt/resource.do?r=csiro_sefhes</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4056</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

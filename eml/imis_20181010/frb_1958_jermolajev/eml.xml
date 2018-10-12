@@ -1,0 +1,166 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5298/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5298</alternateIdentifier>
+      <title xml:lang="eng">FRB: Zooplankton data collected during two surveys of the Inner Bay of Fundy in 1920 and 1951</title>
+	  <creator>
+<individualName>
+      <givenName>E.G.</givenName>
+      <surName>Jermolajev</surName>
+    </individualName></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Plankton surveys were completed in 1920 and in 1951 in the Bay of Fundy to compare zooplankton abundance in the inner and outer regions where marked differences in fish production were well known. Distribution information associated with these studies (Jermolajev 1958) were digitized, standardized and republished as part of the Atlantic Coastal Zone Information Steering Committee (ACZISC) Atlantic Ecosystem Initiative (AEI) funded project “Atlantic Canada’s Biological Data for Ecosystem Planning and Decision-making” and OBIS Canada.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4289">
+          <geographicDescription>ANW, Canada, Fundy Bay - http://marineregions.org/mrgid/4289</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1920-08-25</calendarDate></beginDate>
+            <endDate><calendarDate>1920-09-14</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage><temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1951-07-10</calendarDate></beginDate>
+            <endDate><calendarDate>1951-07-29</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:5950">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:5950</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Aphragmophora</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1100">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1100</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Calanoida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1101">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1101</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Cyclopoida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Mary</givenName>
+      <surName>Kennedy</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography; Ocean Sciences Division; Biological Oceanography</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>mary.kennedy@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:23+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Jermolajev, E. G. (2016) FRB: Zooplankton data collected during two surveys of the Inner Bay of Fundy in 1920 and 1951. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4133</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource?r=frb_1958_jermolajev</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5298</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

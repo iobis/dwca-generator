@@ -1,0 +1,135 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4776/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4776</alternateIdentifier>
+      <title xml:lang="eng">CSIRO, Cruise SS199402, Marine Biological Survey, Southeast Australia, 1994</title>
+	  <creator>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation (CSIRO)</organizationName></creator><creator>
+<individualName>
+      <givenName>Barry</givenName>
+      <surName>Bruce</surName>
+    </individualName>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation (CSIRO)</organizationName>
+<address>
+      <country>AU</country>
+    </address>
+<electronicMailAddress>barry.bruce@csiro.au</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation (CSIRO)</organizationName></metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Biological data collected on Southern Surveyor cruise SS 02/94. This cruise took place in Tasmanian, Victorian and New South Wales coastal and offshore waters during 17-25 February 1994, under the leadership of Barry Bruce, for an ichthyoplankton survey project. Biological data collected on this cruise include samples of larval fish, demersal and midwater fish, invertebrates, zooplankton and ichthyoplankton.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/9092">
+          <geographicDescription>PSE, Australia, Victoria - http://marineregions.org/mrgid/9092</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1994-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>1994-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Animalia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation (CSIRO)</organizationName></contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:13+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>CSIRO - Southern Surveyor voyage SS 02/94, ichthyoplankton survey</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3545</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ogc-act.csiro.au/ipt/resource.do?r=csiro_ss199402</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4776</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

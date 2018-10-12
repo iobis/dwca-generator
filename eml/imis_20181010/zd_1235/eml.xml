@@ -1,0 +1,237 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5311/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5311</alternateIdentifier>
+      <title xml:lang="eng">AFTT Cape Hatteras Aerial Survey -Right side- 2014</title>
+	  <creator>
+<individualName>
+      <givenName>William</givenName>
+      <surName>McLellan</surName>
+    </individualName>
+<organizationName>University of North Carolina Wilmington (UNCW)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>mclellanw@uncw.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Duke University Marine Geospatial Ecology Lab</organizationName>
+<electronicMailAddress>mgel-tech@env.duke.edu</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Aerial surveys were conducted on predetermined tracklines on monthly intervals across the year. All marine mammal sightings were closed on to collect high resolution digital images used to determine species ID in the Lab and to estimate abundance. These data are regularly added to the ongoing seasonal distribution and abundance analyses conducted by CREEM at each of the sites surveyed for the Navy monitoring program.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Aerial surveys</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/8930">
+          <geographicDescription>ANW, USA, North Carolina, Cape Hatteras - http://marineregions.org/mrgid/8930</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>-75.807</westBoundingCoordinate>
+            <eastBoundingCoordinate>-74.313</eastBoundingCoordinate>
+            <northBoundingCoordinate>36.134</northBoundingCoordinate>
+            <southBoundingCoordinate>34.567</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2014-02-24</calendarDate></beginDate>
+            <endDate><calendarDate>2014-12-15</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137205">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137205</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Caretta caretta</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137094">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137094</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Delphinus delphis Linnaeus, 1758</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137209">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137209</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Dermochelys coriacea (Linnaeus, 1758)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137096">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137096</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Globicephala macrorhynchus</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137098">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137098</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Grampus griseus</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:105857">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:105857</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Manta birostris</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:127405">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:127405</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Mola mola (Linneaus, 1758)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137119">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137119</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Physeter macrocephalus Linnaeus, 1758</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137108">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137108</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Stenella frontalis (Cuvier, 1829)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:127029">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:127029</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Thunnus thynnus (Linneaus, 1758)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137111">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137111</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Tursiops truncatus (Montagu, 1821)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137127">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137127</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Ziphius cavirostris</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>William</givenName>
+      <surName>McLellan</surName>
+    </individualName>
+<organizationName>University of North Carolina Wilmington (UNCW)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>mclellanw@uncw.edu</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:39+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>McLellan, William. 2015. AFTT Cape Hatteras Aerial Survey -Right side- 2014. Provided by University of North Carolina, Wilmington and downloaded from OBIS-SEAMAP on (access date)</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4209</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_1235</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/1235</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5311</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

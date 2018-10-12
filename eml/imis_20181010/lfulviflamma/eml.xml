@@ -1,0 +1,180 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5286/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5286</alternateIdentifier>
+      <title xml:lang="eng">Extent of Mangrove Nursery Habitats Determines the Geographic Distribution of a Coral Reef Fish in a South-Pacific Archipelago</title>
+	  <creator>
+<individualName>
+      <givenName>Maylis</givenName>
+      <surName>Labonne</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>Maylis.Labonne@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Christelle</givenName>
+      <surName>Paillon</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>NC</country>
+    </address>
+<electronicMailAddress>christelle.paillon@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Laurent</givenName>
+      <surName>Vigliola</surName>
+    </individualName>
+<organizationName>Institut de Recherche pour le Développement (IRD)</organizationName>
+<address>
+      <country>NC</country>
+    </address>
+<electronicMailAddress>laurent.vigliola@ird.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Laurent</givenName>
+      <surName>Wantiez</surName>
+    </individualName>
+<organizationName>University of New Caledonia</organizationName>
+<address>
+      <country>NC</country>
+    </address></creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Understanding the drivers of species' geographic distribution has fundamental implications for the management of biodiversity. For coral reef fishes, mangroves have long been recognized as important nursery habitats sustaining biodiversity in the Western Atlantic but there is still debate about their role in the Indo-Pacific. Here, we combined LA-ICP-MS otolith microchemistry, underwater visual censuses (UVC) and mangrove cartography to estimate the importance of mangroves for the Indo-Pacific coral reef fish Lutjanus fulviflamma in the archipelago of New Caledonia.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/2261">
+          <geographicDescription>ISEW, New Caledonia - http://marineregions.org/mrgid/2261</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2010-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2010-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:218490">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:218490</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Lutjanus fulviflamma</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:17+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Paillon C, Wantiez L, Kulbicki M, Labonne M, Vigliola L (2014) Data from: Extent of Mangrove Nursery Habitats Determines the Geographic Distribution of a Coral Reef Fish in a South-Pacific Archipelago. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 30 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=lfulviflamma released on February 26, 2016.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4267</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">https://nzobisipt.niwa.co.nz/resource?r=lfulviflamma</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5286</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

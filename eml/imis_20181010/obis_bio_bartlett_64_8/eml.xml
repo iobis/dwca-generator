@@ -1,0 +1,123 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4315/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4315</alternateIdentifier>
+      <title xml:lang="eng">Benthic Forams collected from St. Margarets Bay and Mahone Bay in 1962 and 1963</title>
+	  <creator>
+<individualName>
+      <givenName>Grant</givenName>
+      <surName>Bartlett</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography (BIO)</organizationName>
+<address>
+      <country>CA</country>
+    </address></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Data on marine benthic Foraminifera were obtained from samples collected from May through September during 1962 and 1963. Samples were collected from the bottom sediment using SCUBA diving, and with the aid of various bottom samplers including Dietz Lafond and Butterfly grabs and a short piston corer in water depths ranging from 0.3m to 73.5m. The original report described the Foraminifera of the two bays, various hydrographic information about the sampling area as well as statistical analysis of the results. Multiple investigation methods of the samples were carried out including ratio of living to dead specimens, foraminiferal biofacies, as well as studies of sedimentation rates based on the benthonic foraminifera found during sampling. Species presence information was extracted from the report and used to create the OBIS resource. Complete information on collection and analysis of samples can be found in the original manuscript (Bartlett, 1964).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+  
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Government of Canada Department of Fisheries and Oceans (DFO)</organizationName>
+<electronicMailAddress>obiscanada@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:20:12+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Bartlett, G.A. Benthonic Foraminiferal Ecology on St. Margarets Bay and Mahone Bay Southeast Nova Scotia. In OBIS Canada Digital Collections. 2013. Published by OBIS Canada, Bedford Institute of Oceanography, Dartmouth, N.S. Version 1.0 Digital http://www.iobis.org. Accessed on -INSERT DATE-</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2677</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource.do?r=obis_bio_bartlett_64_8</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4315</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,160 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4760/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4760</alternateIdentifier>
+      <title xml:lang="eng">DFO Pacific Shorekeepers Intertidal Survey - a community based project</title>
+	  <creator>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Sean</givenName>
+      <surName>MacConnachie</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>sean.macconnachie@dfo-mpo.gc.ca</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The Shorekeepers survey is a citizen science protocol based project that enables community groups to collect scientifically defensible information about the intertidal and sub-tidal habitats and their biota in British Columbia. Shorekeepers is a rigorous monitoring methodology. The key to getting reliable scientific data is to use standard survey methods so that everyone is collecting data in the same way over time at all sites. A monitoring guide developed by Fisheries and Oceans Canada presents an intertidal surveying methodology. The method is presented in a logical step-by-step manner starting from selecting a study area through each type of measurement to entering the field data into the database, and finally, reporting the results. After a few days of training in habitat mapping and species identification, community members can use these step-by-step protocols to routinely monitor their site of interest or concern.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/8909">
+          <geographicDescription>Canada, British Columbia - http://marineregions.org/mrgid/8909</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1997-06-30</calendarDate></beginDate>
+            <endDate><calendarDate>2008-07-02</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Animalia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:3">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:3</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>kingdom</taxonRankName>
+		  <taxonRankValue>Plantae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Sean</givenName>
+      <surName>MacConnachie</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>sean.macconnachie@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:22:53+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>DFO (2013). DFO Pacific Shorekeepers Intertidal Survey - a community based project. Version 1 In OBIS Canada Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS. Http://www.iobis.org/. (consulted on [date])</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2815</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource.do?r=dfo_pac_shorekeepers</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4760</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,119 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4284/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4284</alternateIdentifier>
+      <title xml:lang="eng">HRC Vessel-based Marine Mammal Survey off Kaua&#039;i, January 2012</title>
+	  <creator>
+<organizationName>HDR Environmental, Operations and Construction, Inc.</organizationName></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[In order to support the U.S. Navy in meeting regulatory requirements for monitoring established under the Final Rules and to provide a mechanism to assist with coordination of program objectives under the ICMP, this survey was conducted to confirm the Marine Mammal Monitoring on Navy Ranges (M3R) acoustic detections and marine mammal satellite tagging was prior to a training event, the Submarine Commander’s Course exercise, which would be conducted in the same area during February 2012.
+
+The survey occurred from 11 to 19 January 2012 in the waters west of Kaua'i in the Pacific Missile Range Facility (PMRF) instrumented range within the HRC. This cruise was designed as a non-random, non-systematic survey designed to optimize encounter rates for the purpose of visual validation of acoustic detections and satellite tagging of species for which population size, habitat use, and movement pattern data are lacking and which may be exposed to U.S. Navy training.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">http://seamap.env.duke.edu/dataset/928</url></online>
+	 </distribution>
+     <coverage>
+  
+  
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Todd</givenName>
+      <surName>Mcconchie</surName>
+    </individualName>
+<organizationName>HDR Environmental, Operations and Construction, Inc.</organizationName>
+<address>
+      <country>US</country>
+    </address></contact><contact>
+<individualName>
+      <givenName>Dana</givenName>
+      <surName>Spontak</surName>
+    </individualName>
+<organizationName>HDR Environmental, Operations and Construction, Inc.</organizationName>
+<address>
+      <country>US</country>
+    </address></contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:19:55+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>HDR. 2012. Vessel-based Marine Mammal Survey off Kaua&#039;i, 11-19 January 2012. Submitted to Naval Facilities Engineering Command (NAVFAC) Pacific, Honolulu, Hawaii, under Contract No. N62470-10-D-3011 Task Order KB 14, issued to HDR Inc</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2777</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4284</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

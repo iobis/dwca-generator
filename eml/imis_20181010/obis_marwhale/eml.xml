@@ -1,0 +1,221 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4125/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4125</alternateIdentifier>
+      <title xml:lang="eng">DFO Maritimes Region Cetacean Sightings</title>
+	  <creator>
+<individualName>
+      <givenName>Lei</givenName>
+      <surName>Harris</surName>
+    </individualName>
+<organizationName>Department of Fisheries and Oceans; St. Andrews Biological Station</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>Lei.Harris@dfo-mpo.gc.ca</electronicMailAddress>
+</creator><creator>
+<organizationName>Government of Canada; Department of Fisheries and Oceans Bedford Institute of Oceanography (DFO-BIO)</organizationName></creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Lei</givenName>
+      <surName>Harris</surName>
+    </individualName>
+<organizationName>Department of Fisheries and Oceans; St. Andrews Biological Station</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>Lei.Harris@dfo-mpo.gc.ca</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This is an OBIS formatted version of the Fisheries and Oceans Canada Maritimes Region database for visual sightings of cetaceans (e.g. whales, dolphins and porpoises) and other large pelagic animals (e.g. fish and turtles) mostly from the Scotian Shelf/Bay of Fundy portions of Canada's east coast. The collectors of these sightings are diverse (e.g. NGO researchers, fisheries observers, private consultants, etc), mostly on-board ship and mostly collected since the late 1990s. The horizontal resolution of the data (e.g. distance between sightings) varies by a vast amount - just metres in some areas like the Bay of Fundy, and tens to thousands of kilometers elsewhere, like off northern Labrador. A small portion of the database (e.g. DFO Survey) are standardized marine mammal survey data, where a line transect sightings survey is conducted and sightings effort is logged.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/8548">
+          <geographicDescription>ANW, Atlantic, Scotian Shelf - http://marineregions.org/mrgid/8548</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/4289">
+          <geographicDescription>ANW, Canada, Fundy Bay - http://marineregions.org/mrgid/4289</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/2260">
+          <geographicDescription>ANW, Greenland, West - http://marineregions.org/mrgid/2260</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/4256">
+          <geographicDescription>PNW, Beaufort Sea - http://marineregions.org/mrgid/4256</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/8684">
+          <geographicDescription>PNW, USA, Alaska - http://marineregions.org/mrgid/8684</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+	 <singleDateTime><calendarDate>1966-07-01</calendarDate></singleDateTime>
+	 </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:10194">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:10194</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Actinopterygii</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1836">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1836</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Aves</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2688">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2688</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Cetacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:10193">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:10193</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Elasmobranchii</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1837">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1837</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Mammalia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1838">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1838</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Reptilia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Lei</givenName>
+      <surName>Harris</surName>
+    </individualName>
+<organizationName>Department of Fisheries and Oceans; St. Andrews Biological Station</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>Lei.Harris@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:18:50+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Harris, Lei E. (2014). DFO Maritimes Region Cetacean Sightings. Version 5 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/mapper/?dataset=2832</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource.do?r=obis_marwhale</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4125</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

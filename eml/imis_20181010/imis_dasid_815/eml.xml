@@ -1,0 +1,140 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_815/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_815</alternateIdentifier>
+      <title xml:lang="eng">Data Publisher for Earth &amp; Environmental Science</title>
+	  <creator>
+<individualName>
+      <givenName>Michael</givenName>
+      <surName>Diepenbroek</surName>
+    </individualName>
+<organizationName>University of Bremen; Centre for Marine Environmental Sciences (MARUM)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>mdiepenbroek@pangaea.de</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Pangaea is a digital library for data from earth system research. Data sets include a metadata description with a bibliographic citation, persistently identified using a DOI. The system is open to any project or individual scientist for data archiving and publishing. The system is hosted by AWI and MARUM.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">http://www.pangaea.de</url></online>
+	 </distribution>
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1901">
+          <geographicDescription>World Waters - http://marineregions.org/mrgid/1901</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Hannes</givenName>
+      <surName>Grobe</surName>
+    </individualName>
+<organizationName>Alfred Wegener Institute for Polar- and Marine Research (AWI)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>Hannes.Grobe@awi.de</electronicMailAddress>
+<userId directory="http://orcid.org/">0000-0002-4133-2218</userId>
+</contact><contact>
+<individualName>
+      <givenName>Robert</givenName>
+      <surName>Huber</surName>
+    </individualName>
+<organizationName>University of Bremen; Centre for Marine Environmental Sciences (MARUM)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>rhuber@wdc-mare.org</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:02:59+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>PANGAEA-Publishing Network for Geoscientific &amp; Environmental Data, AWI/MARUM, doi:10.1594/pangaea</citation>
+        <physical>
+          <objectName>DiGIR</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://digir.pangaea.de</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=815</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

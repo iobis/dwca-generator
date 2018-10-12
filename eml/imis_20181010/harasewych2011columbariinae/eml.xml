@@ -1,0 +1,162 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5168/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5168</alternateIdentifier>
+      <title xml:lang="eng">The Living Columbariinae (Gastropoda: Neogastropoda: Turbinellidae)</title>
+	  <creator>
+<individualName>
+      <givenName>Jerry</givenName>
+      <surName>Harasewych</surName>
+    </individualName>
+<organizationName>Smithsonian Institution; National Museum of Natural History; Department of Invertebrate Zoology (IZ)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Harasewych@si.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The Columbariinae have been represented in the fauna of New Zealand from the Paleocene until the Recent, providing the longest known continuous record for the subfamily. Seven living species, representing the genera Columbarium, Coluzea, and Fulgurofusus, are recognized, and include two species, Fulgurofusus maxwelli and Fulgurofusus marshalli that are described as new. The New Zealand columbariine fauna is unusually diverse at the generic level, and includes the largest members of the subfamily, as well as the only primarily sublittoral species.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/2227">
+          <geographicDescription>PSE, New Zealand - http://marineregions.org/mrgid/2227</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1914-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2007-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:391475">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:391475</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subfamily</taxonRankName>
+		  <taxonRankValue>Columbariinae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Jerry</givenName>
+      <surName>Harasewych</surName>
+    </individualName>
+<organizationName>Smithsonian Institution; National Museum of Natural History; Department of Invertebrate Zoology (IZ)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Harasewych@si.edu</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:26:43+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Harasewych M.G. (2011) Data from: The living Columbariinae (Gastropoda: Neogastropoda: Turbinellidae) of New Zealand. Southwestern OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 176 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=harasewych2011columbariinae released on June 18, 2015.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3884</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://nzobisipt.niwa.co.nz/resource.do?r=harasewych2011columbariinae</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5168</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

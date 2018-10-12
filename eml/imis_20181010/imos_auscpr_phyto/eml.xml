@@ -1,0 +1,134 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4803/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4803</alternateIdentifier>
+      <title xml:lang="eng">IMOS - AusCPR: Phytoplankton Abundance</title>
+	  <creator>
+<individualName>
+      <givenName>Anthony</givenName>
+      <surName>Richardson</surName>
+    </individualName>
+<organizationName>The University of Queensland (UQ)</organizationName>
+<address>
+      <country>AU</country>
+    </address>
+<electronicMailAddress>a.richardson1@uq.edu.au</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">B-3649-2010</userId>
+</creator>
+      <metadataProvider>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation Marine and Atmospheric Research (CSIRO-CMAR)</organizationName>
+<electronicMailAddress>reception@cmar.csiro.au</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The Australian Continuous Plankton Recorder (AusCPR) survey is a joint project of CSIRO Marine and Atmospheric Research (CMAR) and the Australian Antarctic Division (AAD) to measure plankton communities as a guide to the health of Australia's oceans. The phytoplankton abundance data are analysed as per Richardson et al 2006. It is advised that anyone using the data should first read this methodology or contact the project contact person. The aims of the AusCPR survey are to: * map plankton biodiversity and distribution * develop the first long-term plankton baseline for Australian waters </br>* document plankton changes in response to climate change </br>* provide indices for fisheries management </br>* detect harmful algal blooms </br>* validate satellite remote sensing </br>* initialise and test ecosystem models]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Marine phytoplankton</keyword>
+<keyword>Phytoplankton species</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/2147">
+          <geographicDescription>Australia - http://marineregions.org/mrgid/2147</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2007-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2012-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<organizationName>Commonwealth Scientific &amp; Industrial Research Organisation Marine and Atmospheric Research (CSIRO-CMAR)</organizationName>
+<electronicMailAddress>reception@cmar.csiro.au</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:22+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>	Richardson AJ, Walne AW, John AWG, Jonas TD, Lindley JA, Sims DW, Stevens D, Witt M (2006) Using continuous plankton recorder data. Prog Oceanogr 68:27-74.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3242</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ogc-act.csiro.au/ipt/resource.do?r=imos_auscpr_phyto</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4803</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

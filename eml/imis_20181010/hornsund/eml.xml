@@ -1,0 +1,230 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_243/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_243</alternateIdentifier>
+      <title xml:lang="eng">Polish Arctic Marine Programme</title>
+	  <creator>
+<organizationName>Polish Academy of Sciences Institute of Oceanology (PAN-IOPAN)</organizationName>
+<electronicMailAddress>office@iopan.gda.pl</electronicMailAddress>
+</creator><creator>
+<organizationName>Polish Academy of Sciences Institute of Oceanology (PAN-IOPAN)</organizationName>
+<electronicMailAddress>office@iopan.gda.pl</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Radomir</givenName>
+      <surName>Jaskuła</surName>
+    </individualName>
+<organizationName>Polish Academy of Sciences; Institute of Oceanology (IOPAN)</organizationName>
+<address>
+      <country>PL</country>
+    </address>
+<electronicMailAddress>office@iopan.gda.pl</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Monika</givenName>
+      <surName>Kedra</surName>
+    </individualName>
+<organizationName>Polish Academy of Sciences; Institute of Oceanology; Departement of Marine Ecology (IOPAN)</organizationName>
+<address>
+      <country>PL</country>
+    </address>
+<electronicMailAddress>kedra@iopan.gda.pl</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Edyta</givenName>
+      <surName>Malec</surName>
+    </individualName>
+<organizationName>Polish Academy of Sciences; Institute of Oceanology (IOPAN)</organizationName>
+<address>
+      <country>PL</country>
+    </address>
+<electronicMailAddress>office@iopan.gda.pl</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Jan Marcin</givenName>
+      <surName>Weslawski</surName>
+    </individualName>
+<organizationName>Polish Academy of Sciences; Institute of Oceanology; Departement of Marine Ecology (IOPAN)</organizationName>
+<address>
+      <country>PL</country>
+    </address>
+<electronicMailAddress>weslaw@iopan.gda.pl</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-4075-2012</userId>
+<userId directory="http://orcid.org/">0000-0001-8434-5927</userId>
+</creator><creator>
+<individualName>
+      <givenName>Maria</givenName>
+      <surName>Wlodarska-Kowalczuk</surName>
+    </individualName>
+<organizationName>Polish Academy of Sciences; Institute of Oceanology; Departement of Marine Ecology (IOPAN)</organizationName>
+<address>
+      <country>PL</country>
+    </address>
+<electronicMailAddress>maria@iopan.gda.pl</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">K-4325-2012</userId>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2005-12-01</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This represents data on Benthic fauna, Food webs and the littoral zone from the Polish Academy of Sciences; Institute of Oceanology, taken between 1981 - 1985 from 60 stations annually investigated during summer.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Benthic fauna</keyword>
+<keyword>Food webs</keyword>
+<keyword>Littoral zone</keyword>
+<keyword>Macrobenthos</keyword>
+<keyword>Zoobenthos</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/5642">
+          <geographicDescription>Station: Hornsund</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1981-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>1985-12-31</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Jan Marcin</givenName>
+      <surName>Weslawski</surName>
+    </individualName>
+<organizationName>Polish Academy of Sciences; Institute of Oceanology; Departement of Marine Ecology (IOPAN)</organizationName>
+<address>
+      <country>PL</country>
+    </address>
+<electronicMailAddress>weslaw@iopan.gda.pl</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-4075-2012</userId>
+<userId directory="http://orcid.org/">0000-0001-8434-5927</userId>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:01:22+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation identifier="https://doi.org/10.14284/183">Weslawski J.-M., E. Malec, R. Jaskula, M. Wlodarska-Kowalczuk, M. Kedra, 2002: Polish Arctic Marine Programme. Macrobenthic data from Hornsund from 2002. Polish Academy of Sciences, Institute of Oceanology, Poland https://doi.org/10.14284/183</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=243</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/243</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/87</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Archived file</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://mda.vliz.be/mda/directlink.php?fid=VLIZ_00000097_1236937763</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=243</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,188 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4939/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4939</alternateIdentifier>
+      <title xml:lang="eng">SWFSC Marine Mammal Survey, STAR 1998, Cruise 1611</title>
+	  <creator>
+<individualName>
+      <givenName>Tim</givenName>
+      <surName>Gerrodette</surName>
+    </individualName>
+<organizationName>National Oceanic and Atmospheric Administration; Fisheries Service; Southwest Fisheries Science Center (SWFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Tim.Gerrodette@noaa.gov</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Douglas</givenName>
+      <surName>Kinzey</surName>
+    </individualName>
+<organizationName>National Oceanic and Atmospheric Administration; Fisheries Service; Southwest Fisheries Science Center (SWFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address></creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Ei</givenName>
+      <surName>Fujioka</surName>
+    </individualName>
+<organizationName>Duke University</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>efujioka@duke.edu</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This 1998 eastern tropical Pacific cetacean line-transect survey was part of the Stenella Abundance Research Project (STAR), a multi-year cetacean and ecosystem assessment study designed to assess the status of dolphin stocks which have been taken as incidental catch by the yellowfin tuna purse-seine fishery in the Eastern Tropical Pacific. This survey was conducted by the NOAA Southwest Fisheries Science Center aboard NOAA ships <i>David Starr Jordan</i>, <i>Endeavor</i> and <i>McArthur</i> for a combined total of approximately 42,000 kilometers surveyed from late July to early December 1998. This dataset provides the time-date and geographical coordinates, by species/stock, of all cetaceans detected during the survey, as well as the daily and intra-daily start and end points of the line-transect survey by the NOAA Ship <i>Endeavor<i>.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/18071">
+          <geographicDescription>IS, Eastern Tropical Pacific - http://marineregions.org/mrgid/18071</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1998-07-30</calendarDate></beginDate>
+            <endDate><calendarDate>1998-12-08</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2688">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2688</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Cetacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:148736">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:148736</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Pinnipedia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2689">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2689</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Testudines</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Lisa</givenName>
+      <surName>Ballance</surName>
+    </individualName>
+<organizationName>National Oceanic and Atmospheric Administration; Fisheries Service; Southwest Fisheries Science Center (SWFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Lisa.Ballance@noaa.gov</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:25:07+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>&lt;a href=&#039;http://swfsc.noaa.gov/publications/TM/SWFSC/NOAA-TM-NMFS-SWFSC-283.PDF&#039; target=&#039;reference&#039;&gt;Kinzey, Douglas, Tim Gerrodette, Jay Barlow, Andrew E. Dizon, Wayne L. Perryman, Paula Olson and Alexandra Von Saunder. 1999. Marine mammal data collected during a survey in the eastern tropical Pacific Ocean aboard the NOAA ships McArthur and David Starr Jordan and the UNOLS ship Endeavor July 31-December 9, 1998. NOAA-TM-NMFS-SWFSC-283&lt;/a&gt;</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2969</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_1035</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/1035</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4939</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

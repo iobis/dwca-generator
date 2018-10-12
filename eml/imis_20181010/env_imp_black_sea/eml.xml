@@ -1,0 +1,282 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_272/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_272</alternateIdentifier>
+      <title xml:lang="eng">Environmental impact assessment of oil pollution accident in Gialova lagoon and Navarino Bay</title>
+	  <creator>
+<individualName>
+      <givenName>Costas</givenName>
+      <surName>Dounas</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research; Institute of Marine Biology, Biotechnology and Aquaculture (IMBCC)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>kdounas@hcmr.gr</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Dataset results from national Project on the consequences of the Navarino Oil spill, in 1994.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Environmental assessment</keyword>
+<keyword>Fauna</keyword>
+<keyword>Ichthyofauna</keyword>
+<keyword>Macrofauna</keyword>
+<keyword>Microbial loadings</keyword>
+<keyword>Oil pollution</keyword>
+<keyword>Ornithofauna</keyword>
+<keyword>Plankton</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/3351">
+          <geographicDescription>Station: Navarino Bay</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/3351">
+          <geographicDescription>Station: Gialova lagoon</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1995-05-27</calendarDate></beginDate>
+            <endDate><calendarDate>1996-03-24</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:882">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:882</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Annelida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1292">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1292</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Anthozoa</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:118100">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:118100</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Chironomidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1066">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1066</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subphylum</taxonRankName>
+		  <taxonRankValue>Crustacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1806">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1806</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Echinodermata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:51">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:51</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Molluscs</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:799">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:799</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Nematoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1053">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1053</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Nemertina</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1789">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1789</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Phoronida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Christos</givenName>
+      <surName>Arvanitidis</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research; Institute of Marine Biology, Biotechnology and Aquaculture (IMBCC)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>arvanitidis@her.hcmr.gr</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:01:23+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Dounas C., 1996: Environmental impact assessment of oil pollution accident in Gialova lagoon and Navarino Bay. Hellenic Centre for Marine Research, Greece http://www.vliz.be/imis/imis.php?module=dataset&amp;dasid=272</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=272</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/272</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2820</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Archived file</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1323768385</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Archived file</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1323768474</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>DiGIR</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://wwwgis.ath.hcmr.gr/digir/DiGIR.php</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=272</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

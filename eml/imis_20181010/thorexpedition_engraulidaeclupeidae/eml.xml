@@ -1,0 +1,278 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5517/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5517</alternateIdentifier>
+      <title xml:lang="eng">Engraulidae-Clupeidae. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas</title>
+	  <creator>
+<individualName>
+      <givenName>Evangelia</givenName>
+      <surName>Chatzinikolaou</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>evachatz@hcmr.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Lucia</givenName>
+      <surName>Fanini</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>lucia@hcmr.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>V.</givenName>
+      <surName>Gerovasiliou</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>arvanitidis@her.hcmr.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Dimitra</givenName>
+      <surName>Mavraki</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>dmavraki@hcmr.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Stamatina</givenName>
+      <surName>Nikolopoulou</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research; Institute of Marine Biology, Biotechnology and Aquaculture (IMBCC)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>snikolo@hcmr.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Marilena</givenName>
+      <surName>Tsompanou</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>marilena-ts@hotmail.com</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Sarah</givenName>
+      <surName>Faulwetter</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research; Institute of Marine Biology, Biotechnology and Aquaculture (IMBCC)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>sarifa@her.hcmr.gr</electronicMailAddress>
+<userId directory="http://orcid.org/">0000-0003-4892-4440</userId>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Larvae of fish from families Engraulidae and Clupeidae were sampled.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Historical records</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1905">
+          <geographicDescription>MED, Mediterranean - http://marineregions.org/mrgid/1905</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1904-09-05</calendarDate></beginDate>
+            <endDate><calendarDate>1914-01-24</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:126417">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:126417</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Clupea harengus Linnaeus, 1758</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:125464">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:125464</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Clupeidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:125465">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:125465</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Engraulidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:126421">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:126421</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Sardina pilchardus (Walbaum, 1792)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:126422">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:126422</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Sardinella aurita</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:126425">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:126425</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Sprattus sprattus (Linnaeus, 1758)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Lucia</givenName>
+      <surName>Fanini</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>lucia@hcmr.gr</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:28:47+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation identifier="http://dx.doi.org/10.15468/6xhnfb">Fanini L, Faulwetter S, Nikolopoulou S, Mavraki D,Tsompanou M, Gerovasiliou V, Chatzinikolaou E (2016): Digitization of &quot;Engraulidae-Clupeidae. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas&quot; by Louis Fage (1920). v1.3. Hellenic Center for Marine Research. Dataset/Samplingevent. http://ipt.medobis.eu/resource?r=thorexpedition_engraulidaeclupeidae&amp;v=1.3 http://dx.doi.org/10.15468/6xhnfb</citation>
+        <physical>
+          <objectName>DOI</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://dx.doi.org/10.15468/6xhnfb</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>GBIF dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.gbif.org/dataset/8aa1297b-dbc2-4818-8af5-2040e81876f2</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4275</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.medobis.eu/resource?r=thorexpedition_engraulidaeclupeidae</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5517</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

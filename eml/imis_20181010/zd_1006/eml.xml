@@ -1,0 +1,176 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4904/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4904</alternateIdentifier>
+      <title xml:lang="eng">Opportunistic marine mammal sightings from commercial whale watching vessels, Montauk, New York 1981-1994</title>
+	  <creator>
+<individualName>
+      <givenName>Kathleen</givenName>
+      <surName>Vigness-Raposa</surName>
+    </individualName>
+<organizationName>Marine Acoustics Inc</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>kathleen.vigness@marineacoustics.com</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Robert</givenName>
+      <surName>Kenney</surName>
+    </individualName>
+<organizationName>University of Rhode Island</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>rkenney@gso.uri.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Connie</givenName>
+      <surName>Kot</surName>
+    </individualName>
+<organizationName>Duke University</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>connie.kot@duke.edu</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The sightings came originally from the Okeanos Ocean Research Foundation (Samuel S. Sadove, executive director; Okeanos is no longer in existence), and were recorded from commercial whale-watching vessels out of Montauk in late spring and summer of 1981-1994 (primarily the Finback I and Finback II). These sightings are heavily concentrated in the area between eastern Long Island and Block Island and during the whale-watching season, and therefore somewhat biased, but provide valuable information on several less-common species.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/18913">
+          <geographicDescription>ANW, USA, New York, Long I., Montauk - http://marineregions.org/mrgid/18913</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1981-05-02</calendarDate></beginDate>
+            <endDate><calendarDate>1994-08-14</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2688">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2688</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Cetacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Arthur</givenName>
+      <surName>Kopelman</surName>
+    </individualName>
+<organizationName>Coastal Research and Education Society of Long Island, Inc. (CRESLI)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>president@cresli.org</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:24:35+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>&lt;a href=&#039;http://www.crmc.ri.gov/samp_ocean/10-Kenney-MM&amp;T_reduced.pdf&#039; target=&#039;reference&#039;&gt;Kenney, R.D. and K.J. Vigness-Raposa. 2010. Marine mammals and sea turtles of Narragansett Bay, Block Island Sound, Rhode Island Sound, and nearby waters: An analysis of existing data for the Rhode Island Ocean Special Area Management Plan. IN: Rhode Island Coastal Resources Management Council, Rhode Island Ocean Special Area Management Plan Volume 2. Appendix A: Technical Reports for the Rhode Island Ocean Special Area Management Plan 10: 701-1041&lt;/a&gt;</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3029</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_1006</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/1006</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4904</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

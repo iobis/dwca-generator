@@ -1,0 +1,194 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_2430/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_2430</alternateIdentifier>
+      <title xml:lang="eng">Hamburg pelagic fish database</title>
+	  <creator>
+<organizationName>Johann Heinrich von Thünen-Institut Institute of Sea Fisheries (vTI-TI/SF)</organizationName>
+<electronicMailAddress>sf@thuenen.de</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Heino</givenName>
+      <surName>Fock</surName>
+    </individualName>
+<organizationName>Johann Heinrich von Thünen-Institut; Institute of Sea Fisheries (TI/SF)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>heino.fock@thuenen.de</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Heino</givenName>
+      <surName>Fock</surName>
+    </individualName>
+<organizationName>Johann Heinrich von Thünen-Institut; Institute of Sea Fisheries (TI/SF)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>heino.fock@thuenen.de</electronicMailAddress>
+</associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Data on pelagic fishes from German North Atlantic cruises from the 1970s to 1980s kept by the Zoological Museum of Hamburg (ZIM Hamburg). The dataset was provided to MAR-ECO by Dr. Heino Fock. Primary reference: Post, A. 1987. Pelagic transects of FRVs "Walther Herwig" and "Anton Dohrn" in the Atlantic Ocean 1966 to 1986. Mitt. Inst. f. Seefischerei d. BfaFi Hamburg, 42: 1-68.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1912">
+          <geographicDescription>A, North Atlantic - http://marineregions.org/mrgid/1912</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1973-09-09</calendarDate></beginDate>
+            <endDate><calendarDate>1986-07-30</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:11676">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:11676</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>superclass</taxonRankName>
+		  <taxonRankValue>Pisces</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Thomas</givenName>
+      <surName>de Lange Wenneck</surName>
+    </individualName>
+<organizationName>Institute of Marine Research (IMR)</organizationName>
+<address>
+      <country>NO</country>
+    </address>
+<electronicMailAddress>thomas.de.lange.wenneck@imr.no</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:06:44+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Post, A. 1987. Pelagic transects of FRVs &quot;Walther Herwig&quot; and &quot;Anton Dohrn&quot; in the Atlantic Ocean 1966 to 1986. Mitt. Inst. f. Seefischerei d. BfaFi Hamburg, 42: 1-68.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=2430</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/2430</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/1627</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Archived file</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://mda.vliz.be/mda/directlink.php?fid=VLIZ_00000018_1272456458</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=2430</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,207 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5577/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5577</alternateIdentifier>
+      <title xml:lang="eng">Antractic whale observation on a platform of opportunity abroad krill fishing vessel &quot;Dalmor II&quot;, April - July 2011.</title>
+	  <creator>
+<individualName>
+      <givenName>Karina</givenName>
+      <surName>Vishnyakova</surName>
+    </individualName>
+<organizationName>Ukrainian scientific center of Ecology of Sea (UkrSCES)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>karinavishnyakova@gmail.com</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Karina</givenName>
+      <surName>Vishnyakova</surName>
+    </individualName>
+<organizationName>Ukrainian scientific center of Ecology of Sea (UkrSCES)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>karinavishnyakova@gmail.com</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Karina</givenName>
+      <surName>Vishnyakova</surName>
+    </individualName>
+<organizationName>Ukrainian scientific center of Ecology of Sea (UkrSCES)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>karinavishnyakova@gmail.com</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Karina Vishnyakova, an international scientific observer, conducted cetacean observations from a platform of opportunity, abroad polish trawler Dalmor II that fished Antarctic krill, during a cruise from March to July 2011. Most of the fishing season the vessel was in the CCAMLR statistical area 48.2, to the north-east of the South Orkney Islands. Observations were conducted on the vessel deck or on the bridge. The following data were recorded: observation details, time, geographical coordinates, species and number of animals in a group (or minimum abundance estimate), distance from the vessel and behavioral specific details. Also the photo material was collected.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/12537">
+          <geographicDescription>Antarctica, South Shetland I. - http://marineregions.org/mrgid/12537</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2011-04-01</calendarDate></beginDate>
+            <endDate><calendarDate>2011-06-22</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:231405">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:231405</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Balaenoptera bonaerensis</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137092">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137092</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Megaptera novaeangliae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Oleksandr</givenName>
+      <surName>Leposhkin</surName>
+    </individualName>
+<organizationName>Ukrainian scientific center of Ecology of Sea (UkrSCES)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>cephei7@gmail.com</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Oleksandr</givenName>
+      <surName>Neprokin</surName>
+    </individualName>
+<organizationName>Ukrainian scientific center of Ecology of Sea (UkrSCES)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>o.neprokin@gmail.com</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:29:43+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Vishnyakova K (2016): Antractic whale observation on a platform of opportunity abroad krill fishing vessel &quot;Dalmor II&quot;, April - July 2011.. v1.9. Ukrainian Scientific Centre of Ecology of the Sea (UkrSCES). Dataset/Occurrence. http://gp.sea.gov.ua:8082/ipt/resource?r=whale_observation_ccamlr_ukrsces&amp;v=1.9</citation>
+        <physical>
+          <objectName>GBIF dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">https://doi.org/10.15468/khjvhb</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>GBIF dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">https://www.gbif.org/dataset/e8e2a3e6-0225-4d37-8c66-5f00cc75c181</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://gp.sea.gov.ua:8082/ipt/resource?r=whale_observation_ccamlr_ukrsces</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4345</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5577</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

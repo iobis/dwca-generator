@@ -1,0 +1,198 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5296/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5296</alternateIdentifier>
+      <title xml:lang="eng">FRB: Bottom fauna of Saint John Harbour and estuary as surveyed in 1959 and 1961</title>
+	  <creator>
+<individualName>
+      <givenName>Delphine C.</givenName>
+      <surName>Maclellan</surName>
+    </individualName></creator><creator>
+<individualName>
+      <givenName>J .B.</givenName>
+      <surName>Sprague</surName>
+    </individualName></creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Two surveys to collect bottom fauna in the harbour and estuary at Saint John, New Brunswick were conducted in 1959 and 1961. The objective was to see if there were changes caused by pollution from an oil refinery - the Irving Oil Refinery in East Saint John released most of its chemical wastes into Saint John Harbour through a pipeline terminating near the tip of Courtenay Bay breakwater (near survey station X). The refinery started up in stages from late March to mid-June 1960 by which time it was in full operation. Species distribution information associated with this study were digitized, standardized and republished as part of the Atlantic Coastal Zone Information Steering Committee (ACZISC) Atlantic Ecosystem Initiative (AEI) funded project “Atlantic Canada’s Biological Data for Ecosystem Planning and Decision-making” and OBIS Canada.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/18791">
+          <geographicDescription>ANW, Canada, New Brunswick - http://marineregions.org/mrgid/18791</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1959-11-30</calendarDate></beginDate>
+            <endDate><calendarDate>1959-12-04</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage><temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1961-10-24</calendarDate></beginDate>
+            <endDate><calendarDate>1961-10-26</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:882">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:882</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Annelida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1065">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1065</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Arthropoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1803">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1803</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Brachiopoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:22699">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:22699</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Cephalorhyncha</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1821">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1821</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Chordata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:51">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:51</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Mollusca</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:152391">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:152391</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Nemertea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Mary</givenName>
+      <surName>Kennedy</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans; Bedford Institute of Oceanography; Ocean Sciences Division; Biological Oceanography</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>mary.kennedy@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:21+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Maclellan, D.C. and J.B. Sprague. 2016. FRB: Bottom fauna of Saint John Harbour and estuary as surveyed in 1959 and 1961. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3994</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource?r=frb_ms883_maclellansprague</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5296</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

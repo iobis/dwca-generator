@@ -1,0 +1,152 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4973/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4973</alternateIdentifier>
+      <title xml:lang="eng">NAFO: Historical collection of annual fisheries catch statistics for cod, haddock and redfish in the Northwest Atlantic during the period 1893-1959</title>
+	  <creator>
+<individualName>
+      <givenName>Neil</givenName>
+      <surName>Campbell</surName>
+    </individualName>
+<organizationName>Northwest Atlantic Fisheries Organization (NAFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>ncampbell@nafo.int</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Neil</givenName>
+      <surName>Campbell</surName>
+    </individualName>
+<organizationName>Northwest Atlantic Fisheries Organization (NAFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>ncampbell@nafo.int</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[In 2013 the NAFO Secretariat produced a working paper 'A compilation of historical groundfish catch data from the NAFO Regulatory Area 1804-1959' (SCS 14-07). This report was based upon a literature review of documents. The compiled records contained country, scientific name, NAFO fishing area, year and annual catch (metric tons). A nominal latitude and longitude were assigned to each record based upon the NAFO fishing areas definitions access through the Marine regions gazetteer www.marineregions.org Nominal catches are landed weight, for instance gutted, heads-on fish converted to corresponding weight of round fresh fish. Zero catches are not included in this version of the dataset. The original report contains catch statistics dating back to 1804 but many of these earlier records do not reference a defined NAFO fishing subarea.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/7135">
+          <geographicDescription>ANW, North West Atlantic - http://marineregions.org/mrgid/7135</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1893-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>1959-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1821">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1821</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Chordata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Neil</givenName>
+      <surName>Campbell</surName>
+    </individualName>
+<organizationName>Northwest Atlantic Fisheries Organization (NAFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>ncampbell@nafo.int</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:25:31+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>NAFO 2014. NAFO: Historical collection of annual fisheries catch statistics for cod, haddock and redfish in the Northwest Atlantic during the period 1893-1959. Version 1 In OBIS Canada Digital Collections. Bedford Institute of Oceanography, Dartmouth, NS, Canada. Published by OBIS, Digital http://www.iobis.org/. Accessed on –INSERT DATE</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/mapper/?dataset=3460</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource.do?r=nafo_hcatchstats_1</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4973</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

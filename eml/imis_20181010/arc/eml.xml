@@ -1,0 +1,155 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4108/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4108</alternateIdentifier>
+      <title xml:lang="eng">Atlantic Reference Centre - Museum of Canadian Atlantic Organisms - Invertebrates and Fishes Data</title>
+	  <creator>
+<organizationName>Huntsman Marine Science Centre Atlantic Reference Centre (HMSC)</organizationName></creator><creator>
+<organizationName>Huntsman Marine Science Centre Atlantic Reference Centre (HMSC)</organizationName></creator><creator>
+<individualName>
+      <givenName>Gerhard</givenName>
+      <surName>Pohle</surName>
+    </individualName>
+<organizationName>Huntsman Marine Science Centre; Atlantic Reference Centre</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>gpohle@huntsmanmarine.ca</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Lou</givenName>
+      <surName>Van Guelpen</surName>
+    </individualName>
+<organizationName>Huntsman Marine Science Centre; Atlantic Reference Centre</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>arc@mar.dfo-mpo.gc.ca</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This is the OBIS version of the Atlantic Reference Centre museum database for Canadian Atlantic marine organisms. Specimens represent invertebrates from sponges to tunicates, and fishes.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">http://gcmd.nasa.gov/r/d/[GCMD]OBIS.ARC</url></online>
+	 </distribution>
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1912">
+          <geographicDescription>AN, North Atlantic - http://marineregions.org/mrgid/1912</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  
+  <taxonomicCoverage>
+		 <generalTaxonomicCoverage>Invertebrata</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName></taxonRankName>
+		  <taxonRankValue>Invertebrata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:11676">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:11676</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>superclass</taxonRankName>
+		  <taxonRankValue>Pisces</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Lou</givenName>
+      <surName>Van Guelpen</surName>
+    </individualName>
+<organizationName>Huntsman Marine Science Centre; Atlantic Reference Centre</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>arc@mar.dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:18:43+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Van Guelpen, L. 2006. Atlantic Reference Centre - Museum of Canadian Atlantic Organisms - Invertebrates and Fishes Data. Atlantic Reference Centre Digital Collections. OBIS Canada, Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada, Version 2, Digital, retrieved from http://iobis.org/.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/29</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4108</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,152 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5087/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5087</alternateIdentifier>
+      <title xml:lang="eng">The Azooxanthellate Scleractinia (Coelenterata: Anthozoa) of Australia</title>
+	  <creator>
+<individualName>
+      <givenName>Stephen D.</givenName>
+      <surName>Cairns</surName>
+    </individualName>
+<organizationName>Smithsonian Institution; National Museum of Natural History; Department of Invertebrate Zoology (IZ)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>cairnss@si.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[A total of 237 species of azooxanthellate Scleractinia are reported for the Australian region, including seamounts off the eastern coast. This study was based on approximately 5500 previously unreported specimens collected from 500 localities, as well as a re-examination of most of the types and previously reported specimens from the Australian region. Compared to all azooxanthellate species, those from Australia have a slightly higher percentage of species that are solitary and unattached (or transversely dividing), due to a disproportionate number of species in the families Flabellidae and Turbinoliidae. Bathymetrically they are typical of the worldwide fauna.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/2147">
+          <geographicDescription>ISEW, Australia - http://marineregions.org/mrgid/2147</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1865-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2002-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1292">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1292</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Anthozoa</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:26:19+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Cairns, S.D. (2004). Data from: The Azooxanthellate Scleractinia (Coelenterata: Anthozoa) of Australia. Southwestern OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 892 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=cairns2004corals released on May 6, 2015.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3838</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://nzobisipt.niwa.co.nz/resource.do?r=cairns2004corals</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5087</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

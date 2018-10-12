@@ -1,0 +1,319 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5233/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5233</alternateIdentifier>
+      <title xml:lang="eng">Sizing Ocean Giants</title>
+	  <creator>
+<individualName>
+      <givenName>Catherine</givenName>
+      <surName>Chen</surName>
+    </individualName>
+<organizationName>Duke University</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Lindsay C.</givenName>
+      <surName>Gaskins</surName>
+    </individualName>
+<organizationName>Duke University</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Frank B.</givenName>
+      <surName>Lee</surName>
+    </individualName>
+<organizationName>Duke University; Department of biology</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Craig R.</givenName>
+      <surName>McClain</surName>
+    </individualName>
+<organizationName>Duke University; Department of biology</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>craig.mcclain@duke.edu</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Caroline</givenName>
+      <surName>Schanche</surName>
+    </individualName>
+<organizationName>Duke University</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Shane N.</givenName>
+      <surName>Stone</surName>
+    </individualName>
+<organizationName>Duke University</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Alistair</givenName>
+      <surName>Dove</surName>
+    </individualName>
+<organizationName>Georgia Aquarium Research Center</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Mark</givenName>
+      <surName>Benfield</surName>
+    </individualName>
+<organizationName>Louisiana State University; Department of Oceanography and Coastal Sciences (DOCS)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>ocean@lsu.edu</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Andrea</givenName>
+      <surName>Marshall</surName>
+    </individualName>
+<organizationName>Marine Megafauna Foundation</organizationName>
+<address>
+      <country>MZ</country>
+    </address>
+<electronicMailAddress>andrea@marinemegafauna.org</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>James A.</givenName>
+      <surName>Cosgrove</surName>
+    </individualName>
+<organizationName>Royal British Columbia Museum</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>F.G. (Eric)</givenName>
+      <surName>Hochberg</surName>
+    </individualName>
+<organizationName>Santa Barbara Museum of Natural History; Department of Invertebrate Zoology</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>fghochberg@sbnature2.org</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Meghan A.</givenName>
+      <surName>Balk</surName>
+    </individualName>
+<organizationName>University of New Mexico</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>mabalk04@unm.edu</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Steven E.</givenName>
+      <surName>McMurray</surName>
+    </individualName>
+<organizationName>University of North Carolina Wilmington (UNCW)</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Trevor A.</givenName>
+      <surName>Branch</surName>
+    </individualName>
+<organizationName>University of Washington</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>tbranch@uw.edu</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Andrew D.</givenName>
+      <surName>Thaler</surName>
+    </individualName>
+<organizationName>Virginia Institute of Marine Science (VIMS)</organizationName>
+<address>
+      <country>US</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>Rebecca R.</givenName>
+      <surName>Helm</surName>
+    </individualName>
+<organizationName>Woods Hole Oceanographic Institution (WHOI)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>rhelm@whoi.edu</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[What are the greatest sizes that the largest marine megafauna obtain? This is a simple question with a difficult and complex answer. Many of the largest-sized species occur in the world’s oceans. For many of these, rarity, remoteness, and quite simply the logistics of measuring these giants has made obtaining accurate size measurements difficult. Inaccurate reports of maximum sizes run rampant through the scientific literature and popular media. Moreover, how intraspecific variation in the body sizes of these animals relates to sex, population structure, the environment, and interactions with humans remains underappreciated.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1901">
+          <geographicDescription>World Oceans - http://marineregions.org/mrgid/1901</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1856-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2013-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:342218">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:342218</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Architeuthis dux</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:259252">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:259252</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Bathynomus giganteus</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:105837">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:105837</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Cetorhinus maximus (Gunnerus, 1765)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:137209">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:137209</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Dermochelys coriacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:342305">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:342305</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Enteroctopus dofleini</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:127405">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:127405</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Mola mola (Linneaus, 1758)</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Craig R.</givenName>
+      <surName>McClain</surName>
+    </individualName>
+<organizationName>Duke University; Department of biology</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>craig.mcclain@duke.edu</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:05+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>McClain CR, Balk MA, Benfield MC, Branch TA, Chen C, Cosgrove J, Dove ADM, Gaskins LC, Helm R, Hochberg FG, Lee FB, Marshall A, McMurray SE, Schanche C, Stone SN, Thaler AD (2015) Data from: Sizing ocean giants: patterns of intraspecific size variation in marine megafauna. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 3293 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=sizinggiants released on July 2, 2015.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3950</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://nzobisipt.niwa.co.nz/resource.do?r=sizinggiants</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5233</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

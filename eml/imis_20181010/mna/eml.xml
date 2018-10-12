@@ -1,0 +1,201 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_1040/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_1040</alternateIdentifier>
+      <title xml:lang="eng">MNA - Sezione di Genova - (Marine Biological Samples)</title>
+	  <creator>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Anton</givenName>
+      <surName>Van de Putte</surName>
+    </individualName>
+<organizationName>Belgian Science Policy; Belgian Biodiversity Platform (BBPF)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>a.vandeputte@biodiversity.be</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-6877-2012</userId>
+<userId directory="http://orcid.org/">0000-0003-1336-5554</userId>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Stefano</givenName>
+      <surName>Schiaparelli</surName>
+    </individualName>
+<organizationName>University of Genova; Facoltà di Scienze Matematiche Fisiche e Naturali; Department of Earth, Environmental and Life Sciences (DISTAV)</organizationName>
+<address>
+      <country>IT</country>
+    </address>
+<electronicMailAddress>Stefano.Schiaparelli@unige.it</electronicMailAddress>
+
+<role>custodianSteward</role></associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This dataset on antartic marine ecology and geology has been grown since 1996, and is currently under restore in order to give to the researchers full access to the information and samples present in the Museo Nazionale dell' Antartide (MNA).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Distribution</keyword>
+<keyword>Marine invertebrates</keyword>
+<keyword>Taxonomy</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     <distribution scope="document">
+       <online><url function="information">http://www.mna.it/english/Collections/collezioni_set.htm</url></online>
+	 </distribution>
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4370">
+          <geographicDescription>PS, Ross Sea - http://marineregions.org/mrgid/4370</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>172</westBoundingCoordinate>
+            <eastBoundingCoordinate>175</eastBoundingCoordinate>
+            <northBoundingCoordinate>74</northBoundingCoordinate>
+            <southBoundingCoordinate>64</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1985-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2006-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1806">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1806</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Echinodermata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:51">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:51</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Molluscs</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1341">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1341</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subclass</taxonRankName>
+		  <taxonRankValue>Octocorallia</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:152352">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:152352</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Osteichthyes</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:558">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:558</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Porifera</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Anton</givenName>
+      <surName>Van de Putte</surName>
+    </individualName>
+<organizationName>Belgian Science Policy; Belgian Biodiversity Platform (BBPF)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>a.vandeputte@biodiversity.be</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-6877-2012</userId>
+<userId directory="http://orcid.org/">0000-0003-1336-5554</userId>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:04:03+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>MNA - Sezione di Genova - (http://www.mna.it/english/Collections/collezioni_set.htm)</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/1588</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.biodiversity.aq/resource?r=mna</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=1040</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

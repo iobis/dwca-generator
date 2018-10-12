@@ -1,0 +1,186 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_3441/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_3441</alternateIdentifier>
+      <title xml:lang="eng">Pacific Multispecies Small Mesh Bottom Trawl Survey</title>
+	  <creator>
+<organizationName>Government of Canada Department of Fisheries and Oceans (DFO)</organizationName>
+<electronicMailAddress>obiscanada@dfo-mpo.gc.ca</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Leslie</givenName>
+      <surName>Barton</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>Leslie.Barton@dfo-mpo.gc.ca</electronicMailAddress>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Jim</givenName>
+      <surName>Boutillier</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>boutillierj@pac.dfo-mpo.gc.ca</electronicMailAddress>
+</associatedParty><associatedParty>
+<individualName>
+      <givenName>Erick</givenName>
+      <surName>Merner</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>Erick.Merner@dfo-mpo.gc.ca</electronicMailAddress>
+</associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[An OBIS version of Fisheries and Oceans Canada (DFO) Pacific multispecies small mesh bottom trawl survey data from 1963-2012. Survey data are collected by DFO stock assessment staff during annual trawl surveys originally designed with the primary purpose of developing indices of abundance of commercial shrimp species. The survey data have now evolved to monitor trends and document all species encountered.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4312">
+          <geographicDescription>INE, USA, Alaska, Alaska Gulf - http://marineregions.org/mrgid/4312</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1953-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2012-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1836">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1836</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Aves</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1066">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1066</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subphylum</taxonRankName>
+		  <taxonRankValue>Crustacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage>
+		 <generalTaxonomicCoverage>Invertebrata</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName></taxonRankName>
+		  <taxonRankValue>Invertebrata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:11676">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:11676</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>superclass</taxonRankName>
+		  <taxonRankValue>Pisces</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Leslie</givenName>
+      <surName>Barton</surName>
+    </individualName>
+<organizationName>Government of Canada; Department of Fisheries and Oceans (DFO)</organizationName>
+<address>
+      <country>CA</country>
+    </address>
+<electronicMailAddress>Leslie.Barton@dfo-mpo.gc.ca</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:13:20+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>DFO. 2013. Pacific Multispecies Small Mesh Bottom Trawl Survey, Published by OBIS Canada. Bedford Institute of Oceanography, Dartmouth, Nova Scotia, Canada. Ver.2, Digital</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/mapper/?dataset=2833</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.iobis.org/obiscanada/resource.do?r=obis_pacshrimp</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=3441</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

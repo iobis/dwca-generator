@@ -1,0 +1,212 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_1061/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_1061</alternateIdentifier>
+      <title xml:lang="eng">Bentho-pelagic coupling in the North Sea: Copepoda</title>
+	  <creator>
+<organizationName>Universiteit Gent; Faculteit Wetenschappen; Vakgroep Biologie Onderzoeksgroep Mariene Biologie (UGent-MARBIOL)</organizationName>
+<electronicMailAddress>isolde.degrem@ugent.be</electronicMailAddress>
+</creator><creator>
+<organizationName>Universiteit Gent; Faculteit Wetenschappen; Vakgroep Biologie Onderzoeksgroep Mariene Biologie (UGent-MARBIOL)</organizationName>
+<electronicMailAddress>isolde.degrem@ugent.be</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Wendy</givenName>
+      <surName>Bonne</surName>
+    </individualName>
+<organizationName>Federale overheidsdienst Volksgezondheid, Veiligheid van de Voedselketen en Leefmilieu; Directoraat generaal Leefmilieu; Dienst Marien Milieu</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>wendy.bonne@milieu.belgie.be</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Wendy</givenName>
+      <surName>Bonne</surName>
+    </individualName>
+<organizationName>Federale overheidsdienst Volksgezondheid, Veiligheid van de Voedselketen en Leefmilieu; Directoraat generaal Leefmilieu; Dienst Marien Milieu</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>wendy.bonne@milieu.belgie.be</electronicMailAddress>
+
+<role>custodianSteward</role></associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[The number of individuals per species of benthic copepods was counted for a station on the Kwintebank and on the Gootebank on the Belgian Continental Shelf.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Benthos</keyword>
+<keyword>Marine invertebrates</keyword>
+<keyword>Meiobenthos</keyword>
+<keyword>Sediments</keyword>
+<keyword>Zooplankton</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/3293">
+          <geographicDescription>Station: 330 (Gootebank)</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/2426">
+          <geographicDescription>Station: 215</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1999-03-09</calendarDate></beginDate>
+            <endDate><calendarDate>1999-07-14</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1080">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1080</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subclass</taxonRankName>
+		  <taxonRankValue>Copepoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Wendy</givenName>
+      <surName>Bonne</surName>
+    </individualName>
+<organizationName>Federale overheidsdienst Volksgezondheid, Veiligheid van de Voedselketen en Leefmilieu; Directoraat generaal Leefmilieu; Dienst Marien Milieu</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>wendy.bonne@milieu.belgie.be</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:04:09+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Bonne, W. (1999). Bentho-pelagic coupling in the North Sea - Copepoda. Ghent University, Department of Biology, Marine Biology Section (MARBIOL), Belgium.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=1061</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/1061</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/674</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Archived file</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://mda.vliz.be/mda/directlink.php?fid=VLIZ_00000014_1225459645</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=1061</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

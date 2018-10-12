@@ -1,0 +1,162 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5083/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5083</alternateIdentifier>
+      <title xml:lang="eng">East Weddell Sea echinoids from the JR275 expedition</title>
+	  <creator>
+<individualName>
+      <givenName>Huw</givenName>
+      <surName>Griffiths</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>hjg@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Thomas</givenName>
+      <surName>Saucède</surName>
+    </individualName>
+<organizationName>Université de Bourgogne; Biogéosciences</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>thomas.saucede@u-bourgogne.fr</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Huw</givenName>
+      <surName>Griffiths</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>hjg@bas.ac.uk</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Information regarding the echinoids in this dataset is based on the Agassiz Trawl (AGT) and epibenthic sledge (EBS) samples collected during the British Antarctic Survey cruise JR275 on the RRS James Clark Ross in the austral summer 2012. A total of 56 (1 at the South Orkneys and 55 in the Eastern Weddell Sea) Agassiz Trawl and 18 (2 at the South Orkneys and 16 in the Eastern Weddell Sea) epibenthic sledge deployments were performed at depths ranging from ~280 to ~2060 m. This presents a unique collection for the Antarctic benthic biodiversity assessment of an important group of benthic invertebrates.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/4330">
+          <geographicDescription>PSW, Weddell Sea - http://marineregions.org/mrgid/4330</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2012-02-12</calendarDate></beginDate>
+            <endDate><calendarDate>2012-03-04</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:123082">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:123082</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Echinoidea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Huw</givenName>
+      <surName>Griffiths</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>hjg@bas.ac.uk</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:26:18+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Saucède T, Griffiths H, Moreau C, Jackson JA, Sands C, Downey R, Reed A, Mackenzie M, Geissler P, Linse K (2015) East Weddell Sea echinoids from the JR275 expedition. ZooKeys 504: 1–10. doi: 10.3897/zookeys.504.8860</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3823</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.biodiversity.aq/resource?r=bas_jr275_echinoidea</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5083</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

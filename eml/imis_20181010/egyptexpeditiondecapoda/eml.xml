@@ -1,0 +1,202 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5521/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5521</alternateIdentifier>
+      <title xml:lang="eng">The Fishery Grounds near Alexandria.VII.Decapoda.By Heinrich Balss.(1936)</title>
+	  <creator>
+<individualName>
+      <givenName>Aglaia</givenName>
+      <surName>Legaki</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>aglalegaki@biol.uoa.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Stamatina</givenName>
+      <surName>Nikolopoulou</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research; Institute of Marine Biology, Biotechnology and Aquaculture (IMBCC)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>snikolo@hcmr.gr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Irini</givenName>
+      <surName>Tsikopoulou</surName>
+    </individualName>
+<organizationName>University of Crete</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>fellow_irene@yahoo.gr</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This is a historical dataset that was published in 1936 by H. Balss and concerns of the faunistic report on the Decapoda collected during the floristical and faunistical survey of Adolf Steuer on the coasts near Alexandria mainly with the vessel “El Hoot”.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Historical records</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/14855">
+          <geographicDescription>MED, Egypt, Arab Rep., Alexandria - http://marineregions.org/mrgid/14855</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>29.659</westBoundingCoordinate>
+            <eastBoundingCoordinate>30.426</eastBoundingCoordinate>
+            <northBoundingCoordinate>31.473</northBoundingCoordinate>
+            <southBoundingCoordinate>31.054</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1933-09-03</calendarDate></beginDate>
+            <endDate><calendarDate>1933-11-18</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1130">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1130</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Decapoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Aglaia</givenName>
+      <surName>Legaki</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research (HCMR)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>aglalegaki@biol.uoa.gr</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:28:51+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation identifier="http://dx.doi.org/10.15468/o5gp3i">Legaki Aglaia, Tsikopoulou Irini and Nikolopoulou Stamatina (2016). Digitization of &quot;Balss, H., 1936. Decapoda. The Fishery grounds near Alexandria. VII. Notes and Memoirs of the Fisheries Research Directory of Egypt 15: 1-67&quot;. http://dx.doi.org/10.15468/o5gp3i</citation>
+        <physical>
+          <objectName>DOI</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://dx.doi.org/10.15468/o5gp3i</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>GBIF dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.gbif.org/dataset/9737046d-84e9-4e7d-8f11-5cbc0741da77</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4334</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.medobis.eu/resource?r=egyptexpeditiondecapoda</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5521</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

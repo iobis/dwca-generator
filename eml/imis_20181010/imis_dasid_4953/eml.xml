@@ -1,0 +1,139 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4953/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4953</alternateIdentifier>
+      <title xml:lang="eng">Free-living marine Nematodes from San Julián bay (Santa Cruz, Argentine), 2009.</title>
+	  <creator>
+<individualName>
+      <givenName>Catalina  T.</givenName>
+      <surName>Pastor</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>pastor@cenpat.edu.ar</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Catalina  T.</givenName>
+      <surName>Pastor</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>pastor@cenpat.edu.ar</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Tha aim of this database is collecting all the registered data of free-living marine Nematodes species from San Julian bay during January, 2009. </br>
+This project proposed to study for the first time the meiobenthos (Nematoda) with the aim to find the degree of disturbance in littoral sand-clay coastal areas of the Ría San Julián. The Ría San Julián has a complex variety of wild environments together with a urban human population that produces seawage and garbage, presently poorly treated. Coastal areas near San Julián city will be contrasted with natural areas of similar oceanographic characteristics.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>Unknown</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage>
+          <geographicDescription>PSW, Argentina, Santa Cruz</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2009-01-11</calendarDate></beginDate>
+            <endDate><calendarDate>2009-01-13</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:799">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:799</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Nematoda</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Catalina  T.</givenName>
+      <surName>Pastor</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>pastor@cenpat.edu.ar</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:25:14+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Three new species and one new record of Campylaimus (Diplopeltidae, Nematoda) from Argentine coasts (Buenos Aires and Santa Cruz, Argentina). GABRIELA VILLARES, ANTONELA MARTELLI, VIRGINIA LO RUSSO &amp; CATALINA PASTOR Centro Nacional Patagónico (CONICET). C.C. 128 (9120) Puerto Madryn, Chubut. Argentina. E-mail:villares@cenpat.edu.ar</citation>
+        <physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.cenpat-conicet.gov.ar:8080/ipt-2.0.3/resource.do?r=sjnem</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4953</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

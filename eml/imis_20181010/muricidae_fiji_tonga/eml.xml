@@ -1,0 +1,171 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4819/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4819</alternateIdentifier>
+      <title xml:lang="eng">Muricidae (Mollusca: Gastropoda) from Fiji and Tonga</title>
+	  <creator>
+<individualName>
+      <givenName>Roland</givenName>
+      <surName>Houart</surName>
+    </individualName>
+<organizationName>Koninklijk Belgisch Instituut voor Natuurwetenschappen; Operationele Directie Taxonomie en Fylogenie; Afdeling Malacologie</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>roland.houart@skynet.be</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Virginie</givenName>
+      <surName>Héros</surName>
+    </individualName>
+<organizationName>National Natural History Museum Paris (MNHN)</organizationName>
+<address>
+      <country>FR</country>
+    </address>
+<electronicMailAddress>virginie.heros@mnhn.fr</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Kevin</givenName>
+      <surName>Mackay</surName>
+    </individualName>
+<organizationName>National Institute of Water and Atmospheric Research (NIWA)</organizationName>
+<address>
+      <country>NZ</country>
+    </address>
+<electronicMailAddress>k.mackay@niwa.co.nz</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Fifty-eight muricid species were collected during recent expeditions to Fiji, including 3 new species. A review of the literature added another 37 species reliably recorded from the archipelago, bringing the total muricid fauna of Fiji to 95 species. Twenty-five species, including 14 shared with Fiji, are reported from Tonga.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para></para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage>
+          <geographicDescription>ISE, Tonga</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+        <geographicCoverage id="http://marineregions.org/mrgid/2107">
+          <geographicDescription>ISEW, Fiji - http://marineregions.org/mrgid/2107</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1998-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2001-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:148">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:148</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Muricidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Roland</givenName>
+      <surName>Houart</surName>
+    </individualName>
+<organizationName>Koninklijk Belgisch Instituut voor Natuurwetenschappen; Operationele Directie Taxonomie en Fylogenie; Afdeling Malacologie</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>roland.houart@skynet.be</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:34+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Southwestern Pacific OBIS (2014). Muricidae (Mollusca: Gastropoda) from Fiji and Tonga. Southwestern Pacific OBIS, National Institute of Water and Atmospheric Research (NIWA), Wellington, New Zealand, 277 records, Online http://nzobisipt.niwa.co.nz/resource.do?r=muricidae_fiji_tonga released on June 10, 2014.&lt;/br&gt;Houart, R. &amp; Héros, V. 2008. — Muricidae (Mollusca: Gastropoda) from Fiji and Tonga, in Héros, V., Cowie, R. H. &amp; Bouchet, P. (eds), Tropical Deep-Sea Benthos 25. Mémoires du Muséum national d’Histoire naturelle 196: 437-480. Paris ISBN: 978-2-85653-614-8.</citation>
+        <physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3041</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://nzobisipt.niwa.co.nz/resource.do?r=muricidae_fiji_tonga</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4819</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,162 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5164/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5164</alternateIdentifier>
+      <title xml:lang="eng">Distribution ashore of Southern elephant seals in Península Valdés</title>
+	  <creator>
+<individualName>
+      <givenName>Mariano Andrés</givenName>
+      <surName>Ferrari</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>ferrari@cenpat-conicet.gob.ar</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Mirtha Noemí</givenName>
+      <surName>Lewis</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>mirtha@cenpat.edu.ar</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>María Rosa</givenName>
+      <surName>Marin</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>marin@cenpat-conicet.gob.ar</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Number of individuals per breeding group and distribution ashore of Southern Elephant seals (Mirounga leonina) during censuses on foot carried out on October 3-7. All the groups were counted, located and beaches classified by the substrate.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage>
+          <geographicDescription>PSW, Argentina, Chubut, Valdes Peninsula</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2007-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2007-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:231413">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:231413</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>species</taxonRankName>
+		  <taxonRankValue>Mirounga leonina</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>María Rosa</givenName>
+      <surName>Marin</surName>
+    </individualName>
+<organizationName>Centro Nacional Patagónico (CENPAT)</organizationName>
+<address>
+      <country>AR</country>
+    </address>
+<electronicMailAddress>marin@cenpat-conicet.gob.ar</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:26:40+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Lewis M N, Campagna C, Ferrari M A (2015): Distribution ashore of Southern elephant seals in Península Valdés. v1.11. Centro Nacional Patagonico - CONICET. Dataset/Occurrence. http://arobis.cenpat-conicet.gob.ar:8081/resource?r=censoemspv&amp;v=1.11</citation>
+        <physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://arobis.cenpat-conicet.gob.ar:8081/resource?r=censoemspv</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3848</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5164</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

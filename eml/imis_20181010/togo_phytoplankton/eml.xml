@@ -1,0 +1,167 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4804/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4804</alternateIdentifier>
+      <title xml:lang="eng">Inventory of phytoplankton taxa on the Togolese coast</title>
+	  <creator>
+<individualName>
+      <givenName>Thérèse</givenName>
+      <surName>Edorh</surName>
+    </individualName>
+<organizationName>Université de Lomé</organizationName>
+<address>
+      <country>TG</country>
+    </address>
+<electronicMailAddress>edorh_therese@yahoo.fr</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Latekoe</givenName>
+      <surName>Lawson</surName>
+    </individualName>
+<organizationName>Université de Lomé; Centre de Gestion Integrée du Littoral et de l&#039;Environnement (CGILE)</organizationName>
+<address>
+      <country>TG</country>
+    </address>
+<electronicMailAddress>latesono20@gmail.com</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Latekoe</givenName>
+      <surName>Lawson</surName>
+    </individualName>
+<organizationName>Université de Lomé; Centre de Gestion Integrée du Littoral et de l&#039;Environnement (CGILE)</organizationName>
+<address>
+      <country>TG</country>
+    </address>
+<electronicMailAddress>latesono20@gmail.com</electronicMailAddress>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Ursula</givenName>
+      <surName>Von St Ange</surName>
+    </individualName>
+<organizationName>Southern African Data Centre for Oceanography (SADCO)</organizationName>
+<address>
+      <country>ZA</country>
+    </address>
+<electronicMailAddress>uvstange@csir.co.za</electronicMailAddress>
+</associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Inventory of the phytoplankton taxa on the Togolese coast from the Centre de gestion intégrée du littoral et de l'environnement (CGILE) et le Centre national de données Océanographiques CNDO) du TOGO.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Marine phytoplankton</keyword>
+<keyword>Phytoplankton species</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/8632">
+          <geographicDescription>ASE, Togo - http://marineregions.org/mrgid/8632</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2004-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2013-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Thérèse</givenName>
+      <surName>Edorh</surName>
+    </individualName>
+<organizationName>Université de Lomé</organizationName>
+<address>
+      <country>TG</country>
+    </address>
+<electronicMailAddress>edorh_therese@yahoo.fr</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:24+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Edorh T, Lawson L. (2014). Marine phytoplankton diversity in Togo. Laboratory of Palynology &amp; Algology (FDS-UL) and CGILE.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3210</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.csir.co.za/ipt/resource.do?r=togo_phytoplankton</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4804</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

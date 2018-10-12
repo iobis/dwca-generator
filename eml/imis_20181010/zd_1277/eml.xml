@@ -1,0 +1,201 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_5326/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_5326</alternateIdentifier>
+      <title xml:lang="eng">AMAPPS Southeast Aerial Cruise Winter 2011</title>
+	  <creator>
+<individualName>
+      <givenName>	Elizabeth (Beth)</givenName>
+      <surName>Josephson</surName>
+    </individualName>
+<organizationName>Federal Government of the United States of America; Department of Commerce; National Oceanic and Atmospheric Administration; National Marine Fisheries Service; Northeast Fisheries Science Center (NEFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>elizabeth.josephson@noaa.gov</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Lance</givenName>
+      <surName>Garrison</surName>
+    </individualName>
+<organizationName>Federal Government of the United States of America; Department of Commerce; National Oceanic and Atmospheric Administration; National Marine Fisheries Service; Southeast Fisheries Science Center (SEFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Lance.Garrison@noaa.gov</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<organizationName>Duke University Marine Geospatial Ecology Lab</organizationName>
+<electronicMailAddress>mgel-tech@env.duke.edu</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[This survey is part of the Atlantic Marine Assessment Program for Protected Species (AMAPPS).]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Aerial surveys</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1912">
+          <geographicDescription>AN, North Atlantic - http://marineregions.org/mrgid/1912</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>-81.332</westBoundingCoordinate>
+            <eastBoundingCoordinate>-74.69</eastBoundingCoordinate>
+            <northBoundingCoordinate>36.147</northBoundingCoordinate>
+            <southBoundingCoordinate>24.648</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2011-02-07</calendarDate></beginDate>
+            <endDate><calendarDate>2011-03-13</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:2688">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:2688</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>infraorder</taxonRankName>
+		  <taxonRankValue>Cetacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:136980">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:136980</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>family</taxonRankName>
+		  <taxonRankValue>Delphinidae</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>	Elizabeth (Beth)</givenName>
+      <surName>Josephson</surName>
+    </individualName>
+<organizationName>Federal Government of the United States of America; Department of Commerce; National Oceanic and Atmospheric Administration; National Marine Fisheries Service; Northeast Fisheries Science Center (NEFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>elizabeth.josephson@noaa.gov</electronicMailAddress>
+</contact><contact>
+<individualName>
+      <givenName>Lance</givenName>
+      <surName>Garrison</surName>
+    </individualName>
+<organizationName>Federal Government of the United States of America; Department of Commerce; National Oceanic and Atmospheric Administration; National Marine Fisheries Service; Southeast Fisheries Science Center (SEFSC)</organizationName>
+<address>
+      <country>US</country>
+    </address>
+<electronicMailAddress>Lance.Garrison@noaa.gov</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:27:53+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Josephson B. and L. Garrison. 2015. AMAPPS Southeast Aerial Cruise Winter 2011. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1277) on yyyy-mm-dd.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/4030</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.env.duke.edu/resource.do?r=zd_1277</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Project home page</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.nefsc.noaa.gov/psb/AMAPPS/</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://seamap.env.duke.edu/dataset/1277</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=5326</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

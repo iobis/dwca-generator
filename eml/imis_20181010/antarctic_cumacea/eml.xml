@@ -1,0 +1,153 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_2431/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_2431</alternateIdentifier>
+      <title xml:lang="eng">Biogeographic distribution of Antarctic and sub-Antarctic Cumacea</title>
+	  <creator>
+<individualName>
+      <givenName>Ute</givenName>
+      <surName>Muehlenhardt-Siegel</surName>
+    </individualName>
+<organizationName>University of Hamburg; Zoological Institute und Zoological Museum; Zoological Museum Hamburg (ZMH)</organizationName>
+<address>
+      <country>DE</country>
+    </address></creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Anton</givenName>
+      <surName>Van de Putte</surName>
+    </individualName>
+<organizationName>Belgian Science Policy; Belgian Biodiversity Platform (BBPF)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>a.vandeputte@biodiversity.be</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-6877-2012</userId>
+<userId directory="http://orcid.org/">0000-0003-1336-5554</userId>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[A comprehensive literature search was carried out to extract all available historic published information. Additionally data were submitted from own Antarctic research expeditions since 1985 as far as species have currently been identified.  These data shall include taxonomic level of family, genus (optional subgenus), species (optional subspecies) and synonyms (optional). Further details will be given on authorship of the species, year of publication, holotype or additional findings. Station data cover cruise name, vessel name or expedition name (if available), station number (if available), coordinates (if available), depth (if available), sampling date (if available), description of sampling locality and sampling gear (if available). A second file was produced to contain the references list for the data described in the taxonomic and station data file.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Biogeography</keyword>
+<keyword>Occurrences</keyword>
+<keyword>Southern Ocean</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1907">
+          <geographicDescription>PS, Southern Ocean - http://marineregions.org/mrgid/1907</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1887-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2008-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1137">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1137</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Cumacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Ute</givenName>
+      <surName>Muehlenhardt-Siegel</surName>
+    </individualName>
+<organizationName>University of Hamburg; Zoological Institute und Zoological Museum; Zoological Museum Hamburg (ZMH)</organizationName>
+<address>
+      <country>DE</country>
+    </address></contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:06:44+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Southern Ocean Cumacea records by U. Muellenhardt-Siegel</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/1616</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.biodiversity.aq/resource?r=antarctic_cumacea</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=2431</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

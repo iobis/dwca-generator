@@ -1,0 +1,175 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_1335/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_1335</alternateIdentifier>
+      <title xml:lang="eng">Icota - Pelagant</title>
+	  <creator>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Bruno</givenName>
+      <surName>Danis</surName>
+    </individualName>
+<organizationName>Université Libre de Bruxelles; Faculté des Sciences; Département de Biologie des Organismes; Centre Interuniversitaire de Biologie Marine (ULB - UMH); Unité de Biologie Marine (BIOMAR)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>bdanis@ulb.ac.be</electronicMailAddress>
+</metadataProvider><metadataProvider>
+<individualName>
+      <givenName>Anton</givenName>
+      <surName>Van de Putte</surName>
+    </individualName>
+<organizationName>Belgian Science Policy; Belgian Biodiversity Platform (BBPF)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>a.vandeputte@biodiversity.be</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-6877-2012</userId>
+<userId directory="http://orcid.org/">0000-0003-1336-5554</userId>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Biodiversity of fish-larvae and plankton (phyto- and zooplankton) on the continental shelf between Terre Adélie and the Mertz Glacier Tongue.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   <keyword>Ichthyoplankton</keyword>
+<keyword>Phytoplankton</keyword>
+<keyword>Zooplankton</keyword>
+<keywordThesaurus>ASFA</keywordThesaurus>
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/2265">
+          <geographicDescription>Terre Adélie to Mertz Glacier - http://marineregions.org/mrgid/2265</geographicDescription>
+<boundingCoordinates>
+            <westBoundingCoordinate>139</westBoundingCoordinate>
+            <eastBoundingCoordinate>145</eastBoundingCoordinate>
+            <northBoundingCoordinate>-67.1</northBoundingCoordinate>
+            <southBoundingCoordinate>-66.33</southBoundingCoordinate>
+          </boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2004-01-19</calendarDate></beginDate>
+            <endDate><calendarDate>2004-01-28</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Bruno</givenName>
+      <surName>Danis</surName>
+    </individualName>
+<organizationName>Université Libre de Bruxelles; Faculté des Sciences; Département de Biologie des Organismes; Centre Interuniversitaire de Biologie Marine (ULB - UMH); Unité de Biologie Marine (BIOMAR)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>bdanis@ulb.ac.be</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:04:44+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Koubbi P., Goffart A., Hecq J.H., Swadling K., Beans C., Wright S., 2007. Plankton and ichthyoplankton database of the Icota-Pelagant Programmes from Terre Adélie to the Mertz Glacier Tongue, East-Antarctica, in January 2004.</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/1603</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.biodiversity.aq/resource?r=icota2004</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Archived file</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://mda.vliz.be/mda/directlink.php?fid=VLIZ_00000106_1255681432</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=1335</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

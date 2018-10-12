@@ -1,0 +1,175 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_1014/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_1014</alternateIdentifier>
+      <title xml:lang="eng">CCAMLR historic KRILL</title>
+	  <creator>
+<individualName>
+      <givenName>Volker</givenName>
+      <surName>Siegel</surName>
+    </individualName>
+<organizationName>Johann Heinrich von Thünen-Institut; Institute of Sea Fisheries (TI/SF)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>volker.siegel@thuenen.de</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Angus</givenName>
+      <surName>Atkinson</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>aat@bas.ac.uk</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Anton</givenName>
+      <surName>Van de Putte</surName>
+    </individualName>
+<organizationName>Belgian Science Policy; Belgian Biodiversity Platform (BBPF)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>a.vandeputte@biodiversity.be</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-6877-2012</userId>
+<userId directory="http://orcid.org/">0000-0003-1336-5554</userId>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>David</givenName>
+      <surName>Ramm</surName>
+    </individualName>
+<organizationName>Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR)</organizationName>
+<address>
+      <country>AU</country>
+    </address>
+<electronicMailAddress>david@ccamlr.org</electronicMailAddress>
+
+<role>custodianSteward</role></associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Global information on distribution of Euphausiacea (Crustacea) put together at the Institut für Seefischerei in Hamburg]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/1901">
+          <geographicDescription>World Waters - http://marineregions.org/mrgid/1901</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1964-01-01</calendarDate></beginDate>
+            <endDate><calendarDate>2006-01-01</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1128">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1128</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>order</taxonRankName>
+		  <taxonRankValue>Euphausiacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Volker</givenName>
+      <surName>Siegel</surName>
+    </individualName>
+<organizationName>Johann Heinrich von Thünen-Institut; Institute of Sea Fisheries (TI/SF)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>volker.siegel@thuenen.de</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:03:56+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>A. Atkinson, V. Siegel , E. Pakhomov, P. Rothery (2004):  Long-term decline in krill stock and increase in salps within the Southern Ocean. Nature 432: 100-103</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/216</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.biodiversity.aq/resource?r=historic_krill</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=1014</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

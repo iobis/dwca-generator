@@ -1,0 +1,291 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_628/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_628</alternateIdentifier>
+      <title xml:lang="eng">Jalta-Black Sea</title>
+	  <creator>
+<individualName>
+      <givenName>Alexei</givenName>
+      <surName>Petrov</surName>
+    </individualName>
+<organizationName>National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas (IBSS)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>alexpet@ibss.iuf.net</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-7084-2016</userId>
+<userId directory="http://orcid.org/">0000-0002-0137-486X</userId>
+</creator><creator>
+<individualName>
+      <givenName>Alexei</givenName>
+      <surName>Petrov</surName>
+    </individualName>
+<organizationName>National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas (IBSS)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>alexpet@ibss.iuf.net</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-7084-2016</userId>
+<userId directory="http://orcid.org/">0000-0002-0137-486X</userId>
+</creator><creator>
+<individualName>
+      <givenName>Nikolai</givenName>
+      <surName>Revkov</surName>
+    </individualName>
+<organizationName>National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas (IBSS)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>nrevkov@yandex.ru</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Nikolai</givenName>
+      <surName>Revkov</surName>
+    </individualName>
+<organizationName>National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas (IBSS)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>nrevkov@yandex.ru</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+	    <givenName></givenName>
+		<surName>OBIS Secretariat</surName>
+	   </individualName>
+	   <organizationName>Intergovernmental Oceanographic Commission of UNESCO</organizationName>
+	   <address>
+			<country>BE</country>
+	   </address>
+	   <electronicMailAddress>w.appeltans@unesco.org</electronicMailAddress>
+	   <onlineUrl>http://www.iobis.org</onlineUrl>
+</metadataProvider>
+      <associatedParty>
+<individualName>
+      <givenName>Christos</givenName>
+      <surName>Arvanitidis</surName>
+    </individualName>
+<organizationName>Hellenic Centre for Marine Research; Institute of Marine Biology, Biotechnology and Aquaculture (IMBCC)</organizationName>
+<address>
+      <country>GR</country>
+    </address>
+<electronicMailAddress>arvanitidis@her.hcmr.gr</electronicMailAddress>
+
+<role>custodianSteward</role></associatedParty>
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Comparative studies of macro and meiozoobenthos condition around Jalta gulf under influence of domestic sewage discharge and recreation activity.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage id="http://marineregions.org/mrgid/3738">
+          <geographicDescription>Jalta region (Southern coast of Crimea) - http://marineregions.org/mrgid/3738</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>1979-12-12</calendarDate></beginDate>
+            <endDate><calendarDate>1986-04-19</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:882">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:882</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Annelida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1292">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1292</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Anthozoa</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1839">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1839</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Ascidiacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1824">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1824</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subphylum</taxonRankName>
+		  <taxonRankValue>Cephalochordata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1066">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1066</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>subphylum</taxonRankName>
+		  <taxonRankValue>Crustacea</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1806">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1806</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Echinodermata</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:51">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:51</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Molluscs</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1789">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1789</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Phoronida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:558">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:558</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Porifera</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+<taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:1302">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:1302</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>class</taxonRankName>
+		  <taxonRankValue>Pycnogonida</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Alexei</givenName>
+      <surName>Petrov</surName>
+    </individualName>
+<organizationName>National Academy of Sciences of Ukraine; Institute of Biology of the Southern Seas (IBSS)</organizationName>
+<address>
+      <country>UA</country>
+    </address>
+<electronicMailAddress>alexpet@ibss.iuf.net</electronicMailAddress>
+<userId directory="http://www.researcherid.com/rid/">F-7084-2016</userId>
+<userId directory="http://orcid.org/">0000-0002-0137-486X</userId>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:02:07+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Petrov A. &amp; Revkov N., 1986: Jalta-Black Sea dataset – IBSS, Sevastopol. Institute of Biology of the Southern Seas (IBSS), Ukraine</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/portal/index.php?dasid=628</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.emodnet-biology.eu/toolbox/en/toolbox/occurrence/dataset/628</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/3143</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>DiGIR</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://wwwgis.ath.hcmr.gr/digir/DiGIR.php</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=628</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>

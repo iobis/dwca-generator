@@ -1,0 +1,240 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+ 	       xmlns:dc="http://purl.org/dc/terms/"
+ 	       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 	       xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+ 	       packageId="http://ipt.iobis.org/obis/resource?id=imis_dasid_4764/v1.0" system="http://gbif.org" scope="system"
+ 	       xml:lang="eng">
+    <dataset>
+	  <alternateIdentifier>http://ipt.iobis.org/obis/resource?id=imis_dasid_4764</alternateIdentifier>
+      <title xml:lang="eng">Amundsen Sea Mollusca from the BIOPEARL II expedition</title>
+	  <creator>
+<individualName>
+      <givenName>Stefanie</givenName>
+      <surName>Kaiser</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>DE</country>
+    </address>
+<electronicMailAddress>stefanie.kaiser@uni-hamburg.de</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Jan</givenName>
+      <surName>Strugnell</surName>
+    </individualName>
+<organizationName>The University of Queensland (UQ)</organizationName>
+<address>
+      <country>AU</country>
+    </address></creator><creator>
+<individualName>
+      <givenName>David</givenName>
+      <surName>Barnes</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>dkab@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Peter</givenName>
+      <surName>Enderlein</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>basweb@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Paul</givenName>
+      <surName>Geissler</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>basweb@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Huw</givenName>
+      <surName>Griffiths</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>hjg@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Katrin</givenName>
+      <surName>Linse</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>kl@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Camille</givenName>
+      <surName>Moreau</surName>
+    </individualName>
+<organizationName>Université Libre de Bruxelles; Centre Interuniversitaire de Biologie Marine (ULB - UMH); Biologie Marine - UMH (BIOMAR)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>biomar@umh.ac.be</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Chester</givenName>
+      <surName>Sands</surName>
+    </individualName>
+<organizationName>Natural Environment Research Council; British Antarctic Survey (BAS)</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>basweb@bas.ac.uk</electronicMailAddress>
+</creator><creator>
+<individualName>
+      <givenName>Adrian</givenName>
+      <surName>Glover</surName>
+    </individualName>
+<organizationName>Natural History Museum; Department of Zoology</organizationName>
+<address>
+      <country>GB</country>
+    </address>
+<electronicMailAddress>a.glover@nhm.ac.uk</electronicMailAddress>
+</creator>
+      <metadataProvider>
+<individualName>
+      <givenName>Camille</givenName>
+      <surName>Moreau</surName>
+    </individualName>
+<organizationName>Université Libre de Bruxelles; Centre Interuniversitaire de Biologie Marine (ULB - UMH); Biologie Marine - UMH (BIOMAR)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>biomar@umh.ac.be</electronicMailAddress>
+</metadataProvider>
+      
+	  <pubDate>2018-10-10</pubDate>
+      <language>eng</language>
+      <abstract>
+        <para><![CDATA[Information regarding the molluscs in this dataset is based on the epibenthic sledge (EBS) samples collected during the cruise BIOPEARL II / JR179 RRS James Clark Ross in the austral summer 2008. A total of 34 epibenthic sledge deployments have been performed at five locations in the Amundsen Sea at Pine Island Bay (PIB) and the Amundsen Sea Embayment (ASE) at depths ranging from 476 to 3501m. This presents a unique and important collection for the Antarctic benthic biodiversity assessment as the Amundsen Sea remains one of the least known regions in Antarctica.]]></para>
+      </abstract>
+      <keywordSet>
+      <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+      <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+	   
+  	  </keywordSet>
+  	  <additionalInfo>
+  	    <para>marine, harvested by iOBIS</para>
+  	  </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+     
+     <coverage>
+  
+        <geographicCoverage>
+          <geographicDescription>PSW, Amundsen Sea</geographicDescription>
+<boundingCoordinates>
+     	<westBoundingCoordinate>-180</westBoundingCoordinate>
+     	<eastBoundingCoordinate>180</eastBoundingCoordinate>
+     	<northBoundingCoordinate>90</northBoundingCoordinate>
+     	<southBoundingCoordinate>-90</southBoundingCoordinate>
+     	</boundingCoordinates>
+</geographicCoverage>
+  <temporalCoverage>
+          <rangeOfDates>
+            <beginDate><calendarDate>2008-02-18</calendarDate></beginDate>
+            <endDate><calendarDate>2008-04-11</calendarDate></endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+  <taxonomicCoverage id="urn:lsid:marinespecies.org:taxname:51">
+		 <generalTaxonomicCoverage>urn:lsid:marinespecies.org:taxname:51</generalTaxonomicCoverage>
+		 <taxonomicClassification>
+		  <taxonRankName>phylum</taxonRankName>
+		  <taxonRankValue>Mollusca</taxonRankValue>
+         </taxonomicClassification>
+		 </taxonomicCoverage>
+
+  </coverage>
+  	 <maintenance>
+    	<description>
+      		<para></para>
+    	</description>
+      <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  	 </maintenance>
+     <contact>
+<individualName>
+      <givenName>Camille</givenName>
+      <surName>Moreau</surName>
+    </individualName>
+<organizationName>Université Libre de Bruxelles; Centre Interuniversitaire de Biologie Marine (ULB - UMH); Biologie Marine - UMH (BIOMAR)</organizationName>
+<address>
+      <country>BE</country>
+    </address>
+<electronicMailAddress>biomar@umh.ac.be</electronicMailAddress>
+</contact>
+    </dataset>
+    <additionalMetadata>
+     <metadata>
+      <gbif>
+        <dateStamp>2018-10-10T21:23:02+02:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <citation>Moreau C, Linse K, Griffiths HJ, Barnes DKA, Kaiser S, Glover A, Sands C, Strugnell J, Enderlein P, Geissler P (2013). Amundsen Sea Mollusca from the BIOPEARL II expedition. 692 records, published online, http://ipt.biodiversity.aq/archive.do?r=amundsenseamolluscs_biopearl_ii</citation>
+        <physical>
+          <objectName>Online dataset</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://iobis.org/explore/#/dataset/2799</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>IPT</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://ipt.biodiversity.aq/resource.do?r=amundsenseamolluscs_biopearl_ii</url>
+            </online>
+          </distribution>
+        </physical>
+<physical>
+          <objectName>Metadata</objectName>
+          <characterEncoding>UTF-8</characterEncoding>
+          <dataFormat>
+            <externallyDefinedFormat>
+              <formatName>HTML</formatName>
+            </externallyDefinedFormat>
+          </dataFormat>
+          <distribution>
+            <online>
+              <url function="download">http://www.vliz.be/imis/iobis/imis.php?module=dataset&amp;dasid=4764</url>
+            </online>
+          </distribution>
+        </physical>
+
+      </gbif>
+     </metadata>
+    </additionalMetadata>
+ </eml:eml>
